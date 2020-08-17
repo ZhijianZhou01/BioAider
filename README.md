@@ -13,6 +13,7 @@ BioAider V1.0 and updated version is freely available for non-commercial user at
 
 
 ## 3. Functions
+<b>Note：</b> The version after BioAider V1.0 adds new features and a lot of beautification on program interface, we only introduce the BioAider V1.0 here.
 The functions of BioAider V1.0 are contained in different sectors.  In general, the input format of the sequence is in fasta. At present, there are 3 functional sectors.
 
 ### 3.1. SeqTools
