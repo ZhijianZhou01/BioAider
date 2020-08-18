@@ -28,6 +28,7 @@ The each groups of substitution frequencey contains start value and end value wh
 Then copy them to BioAider
 
 ![image.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Mutation_Analysis.png)
+
 #### 
 
 #### 3.11. Seqformat Convertor
