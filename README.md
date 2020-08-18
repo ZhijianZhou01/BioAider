@@ -64,3 +64,9 @@ BioAider provides mutual conversion among several common sequence formats, which
 
 ![Seqformat_Convertor.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Seqformat_Convertor.png)
 
+
+## 4. Test Datas
+![https://github.com/ZhijianZhou01/BioAider/tree/master/Example](https://github.com/ZhijianZhou01/BioAider/tree/master/Example)
+
+## 5. Bug report
+![GitHub issue](https://github.com/ZhijianZhou01/BioAider/issues) or send email to zjzhou@hnu.edu.cn.
