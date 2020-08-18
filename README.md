@@ -21,14 +21,13 @@ This function is used for analysis of the mutations characteristicson on large n
 
 Whether it’s nucleotides or amino acids or coding genes, BioAider could plot the frequency distribution graph for mutation sites through specifing groups of substitution frequencey in custom.
 
-![image.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Groups_of_mutation_frequency.png)
+![Groups of mutation frequency.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Groups_of_mutation_frequency.png)
 
 The each groups of substitution frequencey contains start value and end value which are separated by tab symbol. Note, the start value of each group is not included in the range of frequency.
 
 Then copy them to BioAider
 
-![image.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Mutation_Analysis.png)
+![Mutation Analysis.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Mutation_Analysis.png)
 
 #### 
 
-#### 3.11. Seqformat Convertor
