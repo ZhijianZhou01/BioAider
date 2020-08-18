@@ -17,7 +17,7 @@ BioAider V1.0 and all the updated versions is freely available for non-commercia
 
 
 ### 3.1. Mutation Analysis
-![image.png](https://github.com/ZhijianZhou01/BioAider/tree/master/Figures/Mutation Analysis.png)
+![image.png](https://github.com/ZhijianZhou01/BioAider/tree/master/Figures/Mutation_Analysis.png)
 
 There are 6 sub-menus under the menu bar of the SeqTools Library, which are Seqformat Convertor, SeqVary, SequenceID Rename, Split Sequence Fragmenet, Combine Gene, Visual Gene Extractor and Fast Annotation.
 #### 
