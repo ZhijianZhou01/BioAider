@@ -33,12 +33,21 @@ Then copy them to the textedit box of BioAider,and select "Codon" single button 
 
  After the run is over, these analysis result could be found in the directory where the source file is located, you could scan the <b>*_mutation site summary</b> file then know the overall variation and mutation hotspots.
 
-![Mutation analysis of codon sequence summary file.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Mutation_analysis_codon_sequence_summary_file.png)
+![SARS-CoV-2_ORF3a_aligned_summary_file.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Mutation_analysis_codon_sequence_summary_file.png)
 
-Or obtain the mutant strain of these variant sites in <b>*_log.txt</b> file:
+You could also konw the number of mutation sites under each mutation frequency group through view <b>*_substitution frequency distribution.png</b>:
 
-![Mutation analysis codon sequence log.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Mutation_analysis_codon_sequence_summary_file.png)
+![SARS-CoV-2_ORF3a_aligned_substitution frequency distribution.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/SARS-CoV-2_ORF3a_aligned_substitution_frequency_distribution.png)
+ 
+It is not difficult to find that more than half of the mutation sites only appear in a single strain, although there are many mutation sites in ORF3a gene.
 
+Or could obtain the corresponding mutant strain of these variant sites in the detailed <b>*_log.txt</b> file:
 
-#### 
+![SARS-CoV-2_ORF3a_aligned log.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Mutation_analysis_codon_sequence_log.png)
+
+#### 3.2. Fast Annotation
+For these strain sequences from the same or highly related species, their nucleotide identity is usually relatively higher. Therefore, the sequences annotation could be based on the gene information of the reference sequence after multi-sequence alignment. 
+
+BioAider provides a quickly sequence annotation function, users can import the aligned gene sequence set (fasta format file), and adjust the reference sequence for annotation to the forefront of the file. Paste the gene information of reference sequence, name, starting string and end  string into the textbox, separated by ",". Then batch abstract genes. Note that the start string or end string of the gene is not limited in length, but it is required to be unique in the reference sequence. Besides, the higher of  similarity among sequences, the higher accuracy of the annotation.
+
 
