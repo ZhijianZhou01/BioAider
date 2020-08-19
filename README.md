@@ -10,7 +10,7 @@ BioAider is developed  based on Python3 and R, which is a user-friendly GUI-inte
 BioAider and all the updated versions is freely available for non-commercial user at [https://github.com/ZhijianZhou01/BioAider/releases](https://github.com/ZhijianZhou01/BioAider/releases). After obtaining the program, users could directly run the program by clicking executable file without installing in Windows or Linux(Ubuntu 16.04 or more) systerms.
 
 ## 3. Example of functions
-<b>Note：</b>BioAider will be in long-term development and functional improvement in the future. <b>Only a small part of the features are shown here</b>, please refer to the instruction ![manual](https://github.com/ZhijianZhou01/BioAider/raw/master/Manual_of_BioAider%20_V1.03.pdf)for details.
+<b>Note：</b>BioAider will be in long-term development and functional improvement in the future. <b>Only a small part of the features are shown here</b>, please refer to the instruction ![manual](https://github.com/ZhijianZhou01/BioAider/raw/master/Manual_of_BioAider_V1.03.pdf)for details.
 
 ### 3.1. Mutation Analysis
 This function could be used for analysis of the <b>mutations characteristicson on large numbers of sequenced strains</b>. The sequence datas for analysis needs to be aligned in advance, and they could be nucleotides, proteins（amino acid） sequences or simply coding gene fragments. For nucleotides and proteins sequences, BioAider could summarizes all the mutation sites with corresponding frequency and strains. 
