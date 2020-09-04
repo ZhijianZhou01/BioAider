@@ -71,5 +71,5 @@ BioAider provides mutual conversion among several common sequence formats, which
 ## 5. Bug report
 ![GitHub issue](https://github.com/ZhijianZhou01/BioAider/issues) or send email to zjzhou@hnu.edu.cn.
 
-## 6. What is 'Commercial License'?
-If you privately use BioAider for commercial purposes withou the license, you are infringing and will face the risk of being sued! Commercial users please contact us for commercial license.
+## 6. Citation
+Zhi-Jian Zhou, Ye Qiu, Ying Pu, Xun Huang, Xing-Yi Ge*. BioAider: An efficient tool for viral genome analysis and its application in tracing SARS-CoV-2 transmission. Sustainable Cities and Society. 2020. DIO:https://doi.org/10.1016/j.scs.2020.102466.
