@@ -11,9 +11,9 @@ BioAider and all the updated versions is freely available for non-commercial use
 
 (1) For  Windows systerms, users could run BioAider directly by clicking BioAider.exe in the directory of "main". 
 (2) For Linux systerms(Ubuntu 16.04 or more), First, switch to the directory of "main", then:
-'''
+```
 $ ./bioaider
-'''
+```
 
 ### 2.1. Windows
 
