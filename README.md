@@ -6,8 +6,16 @@ With the development of sequencing technology, a large amount of genomic sequenc
 
 BioAider is developed  based on Python3 and R, which is a user-friendly GUI-interface program. As a desktop platform for genomic sequencing data studies, BioAider is designed to simplicity of operation and high summary of analysis results, which could save a lot of time for researchers. 
 
-## 2. Download and install
-BioAider and all the updated versions is freely available for non-commercial user at [https://github.com/ZhijianZhou01/BioAider/releases](https://github.com/ZhijianZhou01/BioAider/releases). After obtaining the program, users could directly run the program by clicking executable file in the directory of "main", BioAider can run in Windows, Linux(Ubuntu 16.04 or more) and MacOS systerms.
+## 2. Download, install and run
+BioAider and all the updated versions is freely available for non-commercial user at [https://github.com/ZhijianZhou01/BioAider/releases](https://github.com/ZhijianZhou01/BioAider/releases). After obtaining the program, users could directly run the program of executable file in the directory of "main", BioAider can run in Windows, Linux(Ubuntu 16.04 or more) and MacOS systerms.
+
+(1) For  Windows systerms, users could run BioAider directly by clicking BioAider.exe in the directory of "main". 
+(2) For Linux systerms(Ubuntu 16.04 or more), First, switch to the directory of "main", then:
+'''
+$ ./bioaider
+'''
+
+### 2.1. Windows
 
 ## 3. Example of functions
 <b>Note：</b>BioAider will be in long-term development and functional improvement in the future. <b>Only a small part of the features are shown here</b>, please refer to the instruction ![manual](https://github.com/ZhijianZhou01/BioAider/raw/master/Manual_of_BioAider_V1.03.pdf)for details.
