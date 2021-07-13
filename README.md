@@ -9,7 +9,7 @@ BioAider is developed  based on Python3 and R, which is a user-friendly GUI-inte
 ## 2. Download, install and run
 BioAider and all the updated versions is freely available for non-commercial user at [https://github.com/ZhijianZhou01/BioAider/releases](https://github.com/ZhijianZhou01/BioAider/releases). After obtaining the program, users could directly run the program of executable file in the directory of "main", BioAider can run in Windows, Linux(Ubuntu 16.04 or more) and MacOS systerms.
 
-(1) For Windows or MacOS systerms, users could run BioAider directly by clicking BioAider.exe (in Windows) or bioaider(in MacOS) in the directory of "main". 
+(1) For Windows or MacOS systerms, users could run BioAider directly by clicking BioAider.exe (in Windows) or bioaider (in MacOS) in the directory of "main". 
 
 (2) For Linux systerms(Ubuntu 16.04 or more), first, switch to the directory of "main", then:
 ```
