@@ -16,8 +16,6 @@ BioAider and all the updated versions is freely available for non-commercial use
 $ ./bioaider
 ```
 
-### 2.1. Windows
-
 ## 3. Example of functions
 <b>Note：</b>BioAider will be in long-term development and functional improvement in the future. <b>Only a small part of the features are shown here</b>, please refer to the instruction ![manual](https://github.com/ZhijianZhou01/BioAider/raw/master/Manual_of_BioAider_V1.03.pdf)for details.
 
