@@ -28,19 +28,21 @@ Of course, if the datas is codon gene, BioAider provides multiple sets of differ
 
 Whether it’s nucleotides or amino acids or coding genes, BioAider could plot the frequency distribution graph for mutation sites through specifing groups of substitution frequencey in custom.
 
-Eaxmple of mutations analysis for aligned SARS-CoV-2 ORF3a gene sequences. First, create frequency grouping in a table editor:
+Eaxmple of mutations analysis for aligned SARS-CoV-2 ORF3a gene sequences.
+First, Drag the sequence to be analyzed to the input box, and select "Codon" single button in "Datas type": 
+
+![Mutation Analysis.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Mutation_Analysis.png#align=left&display=inline&height=517&margin=%5Bobject%20Object%5D&name=Mutation_Analysis.png&originHeight=774&originWidth=813&size=66000&status=done&style=none&width=543)
+
+After the run is over, these analysis result could be found in the directory where the source file is located, you could scan the <b>*_mutation site summary</b> file then know the overall variation and mutation hotspots.
+
+![SARS-CoV-2_ORF3a_aligned_summary_file.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Mutation_analysis_codon_sequence_summary_file.png#align=left&display=inline&height=360&margin=%5Bobject%20Object%5D&name=Mutation_analysis_codon_sequence_summary_file.png&originHeight=1056&originWidth=1855&size=298002&status=done&style=none&width=633)
+
+If you also need to plot the distribution of synonymous/non-synonymous substitution bases, you can prepare a grouping table first:
 
 ![Groups of mutation frequency.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Groups_of_mutation_frequency.png##align=left&display=inline&height=275&margin=%5Bobject%20Object%5D&name=Groups_of_mutation_frequency.png&originHeight=384&originWidth=546&size=35721&status=done&style=none&width=391)
 
 The each groups of substitution frequencey contains start value and end value which are separated by tab symbol. <b>Note, the start value</b> of each group is not included in the range of frequency.
 
-Then copy them to the textedit box of BioAider,and select "Codon" single button in "Datas type":
-
-![Mutation Analysis.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Mutation_Analysis.png#align=left&display=inline&height=517&margin=%5Bobject%20Object%5D&name=Mutation_Analysis.png&originHeight=774&originWidth=813&size=66000&status=done&style=none&width=543)
-
- After the run is over, these analysis result could be found in the directory where the source file is located, you could scan the <b>*_mutation site summary</b> file then know the overall variation and mutation hotspots.
-
-![SARS-CoV-2_ORF3a_aligned_summary_file.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Mutation_analysis_codon_sequence_summary_file.png#align=left&display=inline&height=360&margin=%5Bobject%20Object%5D&name=Mutation_analysis_codon_sequence_summary_file.png&originHeight=1056&originWidth=1855&size=298002&status=done&style=none&width=633)
 
 You could also konw the number of mutation sites under each mutation frequency group through view <b>*_substitution frequency distribution.png</b>:
 
