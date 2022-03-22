@@ -5,6 +5,7 @@
 With the development of sequencing technology, a large amount of genomic sequenced datas has been accumulated. Analyzing of these data will help us understand their genetic variation at the molecular level. However, processing in a large-scale sequences is difficult for biological or clinical expert without bioinformatics and programming skills. Besides,  the needs are also diverse due to different research purposes. Therefore,  simplicity of operation and diversity of function are needed.
 
 BioAider is developed  based on Python3 and R, which is a user-friendly GUI-interface program. As a desktop platform for genomic sequencing data studies, BioAider is designed to simplicity of operation and high summary of analysis results, which could save a lot of time for researchers. 
+![BioAider](https://github.com/ZhijianZhou01/BioAider/blob/master/Figures/BioAider.jpg)
 
 ## 2. Download, install and run
 BioAider and all the updated versions is freely available for non-commercial user at [https://github.com/ZhijianZhou01/BioAider/releases](https://github.com/ZhijianZhou01/BioAider/releases). After obtaining the program, users could directly run the program of executable file in the directory of "main", BioAider can run in Windows, Linux(Ubuntu 16.04 or more) and MacOS systerms.
@@ -15,7 +16,6 @@ BioAider and all the updated versions is freely available for non-commercial use
 ```
 $ ./bioaider
 ```
-![BioAider](https://github.com/ZhijianZhou01/BioAider/blob/master/Figures/BioAider.jpg)
 
 
 ## 3. Example of functions
