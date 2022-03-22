@@ -56,7 +56,8 @@ Or could obtain the corresponding mutant strain of these variant sites in the de
 
 ### 3.4 Lollipop chart of gene mutation
 Lollipop map is an efficient method to display gene mutation sites and frequencies, they look like the following:
-
+![Lollipop map of mutation](https://github.com/ZhijianZhou01/BioAider/blob/master/Figures/Lollipop%20map.png)
+In BioAider, you only need to prepare the corresponding matrix file and simply set the parameters to quickly complete the drawing.
 
 ### 3.3. Fast Annotation
 For these strain sequences from the same or highly related species, their nucleotide identity is usually relatively higher. Therefore, the sequences annotation could be based on the gene information of the reference sequence after multi-sequence alignment. 
