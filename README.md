@@ -42,7 +42,7 @@ If you also need to plot the distribution of synonymous/non-synonymous substitut
 ![Groups of mutation frequency.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Groups_of_mutation_frequency.png##align=left&display=inline&height=275&margin=%5Bobject%20Object%5D&name=Groups_of_mutation_frequency.png&originHeight=384&originWidth=546&size=35721&status=done&style=none&width=391)
 
 The each groups of substitution frequencey contains start value and end value which are separated by tab symbol. <b>Note, the start value</b> of each group is not included in the range of frequency.
-
+![group_in_mutation.png]()
 
 You could also konw the number of mutation sites under each mutation frequency group through view <b>*_substitution frequency distribution.png</b>:
 
