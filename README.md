@@ -20,22 +20,6 @@ $ ./bioaider
 ```
 $ chmod -R 777 BioAider_v1.423_linux_20220321
 ```
-(4) In linux systerms, MAFFT may not work properly，please modify the “prefix path” in mafft program (BioAider_v1.423_linux_20220321/external_program/mafft/linux/bin/mafft),it might have been so before:
-```
-if [ "$MAFFT_BINARIES" ]; then
-	prefix="$MAFFT_BINARIES"
-else        
-	prefix=../external_program/mafft/linux/libexec/mafft
-fi
-```
-Then you need to modify it to something like this (for example, directory of "BioAider_v1.423_linux_20220321" was directly placed in the D drive:
-```
-if [ "$MAFFT_BINARIES" ]; then
-	prefix="$MAFFT_BINARIES"
-else        
-	prefix= D:/BioAider_v1.423_linux_20220321/external_program/mafft/linux/libexec/mafft
-fi
-```
 
 ## 3. Example of functions
 <b>Note：</b>BioAider will be in long-term development and functional improvement in the future. <b>Only a small part of the features are shown here</b>, please refer to the instruction ![Manual V1.423](https://github.com/ZhijianZhou01/BioAider/blob/master/Manual%20of%20BioAider%20V1.423.pdf) for details.
