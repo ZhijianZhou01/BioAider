@@ -15,7 +15,7 @@ BioAider and all the updated versions is freely available for non-commercial use
 ```
 $ ./bioaider
 ```
-![BioAider](https://github.com/ZhijianZhou01/BioAider/blob/master/Figures/BioAider_new.png)
+![BioAider](https://github.com/ZhijianZhou01/BioAider/blob/master/Figures/BioAider.png)
 
 
 ## 3. Example of functions
