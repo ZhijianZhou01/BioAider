@@ -1,0 +1,7 @@
+Sample	Group	Value
+Sample1	Test	1.1
+Sample1	Test	1.3
+Sample1	Test	1.3
+Sample1	Control 	1
+Sample1	Control 	0.8
+Sample1	Control 	0.9
