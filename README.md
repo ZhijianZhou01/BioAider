@@ -15,6 +15,8 @@ BioAider and all the updated versions is freely available for non-commercial use
 ```
 $ ./bioaider
 ```
+![BioAider](https://github.com/ZhijianZhou01/BioAider/blob/master/Figures/BioAider.png)
+                                                   Use blue theme
 
 ## 3. Example of functions
 <b>Note：</b>BioAider will be in long-term development and functional improvement in the future. <b>Only a small part of the features are shown here</b>, please refer to the instruction ![Manual V1.423](https://github.com/ZhijianZhou01/BioAider/blob/master/Manual%20of%20BioAider%20V1.423.pdf) for details.
