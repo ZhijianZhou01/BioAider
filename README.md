@@ -17,7 +17,7 @@ $ ./bioaider
 ```
 
 ## 3. Example of functions
-<b>Note：</b>BioAider will be in long-term development and functional improvement in the future. <b>Only a small part of the features are shown here</b>, please refer to the instruction ![manual](https://github.com/ZhijianZhou01/BioAider/raw/master/)for details.
+<b>Note：</b>BioAider will be in long-term development and functional improvement in the future. <b>Only a small part of the features are shown here</b>, please refer to the instruction ![manual](https://github.com/ZhijianZhou01/BioAider/raw/master)for details.
 
 ### 3.1. Mutation Analysis
 This function could be used for analysis of the <b>mutations characteristicson on large numbers of sequenced strains</b>. The sequence datas for analysis needs to be aligned in advance, and they could be nucleotides, proteins（amino acid） sequences or simply coding gene fragments. For nucleotides and proteins sequences, BioAider could summarizes all the mutation sites with corresponding frequency and strains. 
