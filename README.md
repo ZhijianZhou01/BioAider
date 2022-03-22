@@ -54,21 +54,25 @@ Or could obtain the corresponding mutant strain of these variant sites in the de
 
 ![SARS-CoV-2_ORF3a_aligned log.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Mutation_analysis_codon_sequence_log.png#align=left&display=inline&height=341&margin=%5Bobject%20Object%5D&name=Mutation_analysis_codon_sequence_log.png&originHeight=932&originWidth=1741&size=414003&status=done&style=none&width=637)
 
-### 3.2. Fast Annotation
+### 3.4 Lollipop chart of gene mutation
+Lollipop map is an efficient method to display gene mutation sites and frequencies, they look like the following:
+
+
+### 3.3. Fast Annotation
 For these strain sequences from the same or highly related species, their nucleotide identity is usually relatively higher. Therefore, the sequences annotation could be based on the gene information of the reference sequence after multi-sequence alignment. 
 
 BioAider provides a quickly sequence annotation function, users can import the aligned complete genome sequence set (fasta format file), and adjust the reference sequence for annotation to the forefront of the file. Paste the gene information of reference sequence in aligned sets, name, starting string and end string into the textbox, separated by ",". Then batch abstract genes. Note that the start string or end string of the gene is not limited in length, but it is required to be unique in the reference sequence. Besides, the higher of  similarity among sequences, the higher accuracy of the annotation.
 
 ![Fast_Annotation.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Fast_Annotation.png#align=left&display=inline&height=471&margin=%5Bobject%20Object%5D&name=Fast_Annotation.png&originHeight=521&originWidth=571&size=50539&status=done&style=none&width=516)
 
-### 3.3. Sequence Identity Matrix
+### 3.4. Sequence Identity Matrix
 This function contains two different modes: nucleotide or amino acid sequence identity matrix (Single nt or aa), nucleotide plus amino acid sequence identity matrix (Combination nt and aa). It should be noted that if the "Combination nt and aa" is selected, the inputed sequences should be aligned based on codon method. 
 
 In order to better fit the variation characteristics , BioAider provides the "Condense gap" function. If  the option was selected, the program will treat every 3 consecutive inserted or deleted bases as one.
 
 ![Sequence_Identity_Matrix.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Sequence_Identity_Matrix.png#align=left&display=inline&height=310&margin=%5Bobject%20Object%5D&name=Sequence_Identity_Matrix.png&originHeight=425&originWidth=793&size=53676&status=done&style=none&width=579)
 
-### 3.4. Seqformat Convertor
+### 3.5. Seqformat Convertor
 BioAider provides mutual conversion among several common sequence formats, which are Fasta, Nexus, Paml, and Phylip. Of note, the "Data type" option is only available when the target format is "Nexus".
 
 ![Seqformat_Convertor.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Seqformat_Convertor.png#align=left&display=inline&height=324&margin=%5Bobject%20Object%5D&name=Seqformat_Convertor.png&originHeight=352&originWidth=576&size=21977&status=done&style=none&width=530)
