@@ -16,7 +16,7 @@ BioAider and all the updated versions is freely available for non-commercial use
 ```
 $ ./bioaider
 ```
-If you could not get run permission of BioAider on linux systerms, you could:
+If you could not get permission to run BioAider on linux systerms, you could:
 ```
 $ chmod -R 777 BioAider_v1.423_linux_20220321
 ```
