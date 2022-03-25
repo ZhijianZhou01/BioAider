@@ -18,7 +18,7 @@ $ ./bioaider
 ```
 If you could not get permission to run BioAider on linux systerms, you could:
 ```
-$ chmod -R 777 BioAider_v1.423_linux_20220321
+$ chmod -R 777 BioAider_v1.423_linux_20220324
 ```
 
 ## 3. Example of functions
