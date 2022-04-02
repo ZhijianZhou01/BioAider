@@ -1,8 +1,8 @@
 # Bioinformatics Aider (BioAider)
 [![](https://img.shields.io/badge/Doi-10.1016/j.scs.2020.102466-yellow.svg)](https://doi.org/Doi:10.1016/j.scs.2020.102466) 
 ![](https://img.shields.io/badge/Download-1264-green.svg)
-![](https://img.shields.io/badge/Cited-19-blue.svg)
-[![](https://img.shields.io/badge/New-V1.423-blue.svg)](https://github.com/ZhijianZhou01/BioAider/releases/tag/1.423)
+![](https://img.shields.io/badge/Cited%20by-19-blue.svg)
+[![](https://img.shields.io/badge/New%20version-V1.423-blue.svg)](https://github.com/ZhijianZhou01/BioAider/releases/tag/1.423)
 
 ## 1. Introduction
 With the development of sequencing technology, a large amount of genomic sequenced datas has been accumulated. Analyzing of these data will help us understand their genetic variation at the molecular level. However, processing in a large-scale sequences is difficult for biological or clinical expert without bioinformatics and programming skills. Besides,  the needs are also diverse due to different research purposes. Therefore,  simplicity of operation and diversity of function are needed.
