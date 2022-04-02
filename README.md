@@ -5,7 +5,7 @@
 [![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/1.423/total?color=red&style=flat-square)](https://github.com/ZhijianZhou01/BioAider/releases/tag/1.423)
 
 [![](https://img.shields.io/badge/Doi-10.1016/j.scs.2020.102466-yellow.svg)](https://doi.org/Doi:10.1016/j.scs.2020.102466) 
-![](https://img.shields.io/badge/Cited%20by-19-blue.svg)
+[![](https://img.shields.io/badge/Cited%20by-19-blue.svg)](https://www.researchgate.net/publication/343956716_BioAider_An_efficient_tool_for_viral_genome_analysis_and_its_application_in_tracing_SARS-CoV-2_transmission/citations)
 
 
 ## 1. Introduction
