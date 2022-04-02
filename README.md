@@ -1,6 +1,7 @@
 # Bioinformatics Aider (BioAider)
 [![](https://img.shields.io/badge/Doi-10.1016/j.scs.2020.102466-yellow.svg)](https://doi.org/Doi:10.1016/j.scs.2020.102466) 
 ![](https://img.shields.io/badge/Download-1264-green.svg)
+![](https://img.shields.io/badge/Cited-19-blue.svg)
 [![](https://img.shields.io/badge/New-V1.423-blue.svg)](https://github.com/ZhijianZhou01/BioAider/releases/tag/1.423)
 
 ## 1. Introduction
