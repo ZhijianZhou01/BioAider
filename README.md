@@ -27,6 +27,8 @@ If you could not get permission to run BioAider on linux systerms, you could:
 ```
 $ chmod -R 777 BioAider_v1.423_linux_20220324
 ```
+
+(3) Preview of BioAider
 ![BioAider GUI](https://github.com/ZhijianZhou01/BioAider/blob/master/Figures/BioAider-GUI.gif)
 
 ## 3. Example of functions
