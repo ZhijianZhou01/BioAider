@@ -9,23 +9,23 @@
 
 
 ## 1. Introduction
-With the development of sequencing technology, a large amount of genomic sequenced datas has been accumulated. Analysis of these data will help us understand their genetic variation at the molecular level. However, processing in a large-scale sequences is difficult for biological or clinical expert without bioinformatics or programming skills. Besides, the needs are also diverse due to different research purposes. Therefore, software with diversity of function and simplicity of operation is very valuable.
+With the development of sequencing technology, a large amount of genomic sequenced data has been accumulated. Analysis of these data will help us understand their genetic variation at the molecular level. However, processing in a large-scale sequence data is difficult for biological or clinical expert without bioinformatics or programming skills. Besides, the needs are also diverse due to different research purposes. Therefore, software with diversity of function and simplicity of operation is very valuable.
 
-BioAider is developed based on Python3 and R, which is a user-friendly program with GUI-interface. As a desktop platform, the design concept of BioAider is that simplicity of operation and high summary of analysis results, which could save a lot of time for researchers.
+BioAider is developed based on Python3, which is a user-friendly program with GUI-interface. As a desktop platform, the design concept of BioAider is that simplicity of operation and high summary of analysis results, which could save a lot of time for researchers.
 ![BioAider](https://github.com/ZhijianZhou01/BioAider/blob/master/Figures/BioAider.jpg)
 
 Since its release, BioAider has been used in research by several researchers and appeared in some publications. In the future, we will continue to optimize BioAider and add new features.
 
 ## 2. Download, install and run
-BioAider and all the updated versions is freely available for non-commercial user at [https://github.com/ZhijianZhou01/BioAider/releases](https://github.com/ZhijianZhou01/BioAider/releases). After obtaining the program, users could directly run the program of executable file in the directory of "main", BioAider can run in Windows, Linux(Ubuntu 16.04 or more) and MacOS systerms.
+BioAider and all the updated versions is freely available for non-commercial user at [https://github.com/ZhijianZhou01/BioAider/releases](https://github.com/ZhijianZhou01/BioAider/releases). After obtaining the program, users could directly run the program of executable file in the directory of "main", BioAider can run in Windows, Linux(Ubuntu 16.04 or more) and MacOS system.
 
-(1) For Windows or MacOS systerms, users could run BioAider directly by clicking BioAider.exe (in Windows) or bioaider (in MacOS) in the directory of "main". 
+(1) For Windows or MacOS system, users could run BioAider directly by clicking BioAider.exe (in Windows) or bioaider (in MacOS) in the directory of "main". 
 
-(2) For linux systerms(Ubuntu 16.04 or more), first, switch to the directory of "main", then:
+(2) For linux system(Ubuntu 16.04 or more), first, switch to the directory of "main", then:
 ```
 $ ./bioaider
 ```
-If you could not get permission to run BioAider on linux systerms, you could:
+If you could not get permission to run BioAider on linux system, you could:
 ```
 $ chmod -R 777 BioAider_v1.423_linux_20220324
 ```
@@ -37,9 +37,9 @@ $ chmod -R 777 BioAider_v1.423_linux_20220324
 <b>Note：</b>BioAider will be in long-term development and functional improvement in the future. <b>Only a small part of the features are shown here</b>, please refer to the instruction ![Manual V1.423](https://github.com/ZhijianZhou01/BioAider/blob/master/Manual%20of%20BioAider%20V1.423.pdf) for details.
 
 ### 4.1. Mutation Analysis
-This function could be used for analysis of the <b>mutations characteristicson on large numbers of sequenced strains</b>. The sequence datas for analysis needs to be aligned in advance, and they could be nucleotides, proteins（amino acid） sequences or simply coding gene fragments. For nucleotides and proteins sequences, BioAider could summarizes all the mutation sites with corresponding frequency and strains. 
+This function could be used for analysis of the <b>mutations characteristicson on large numbers of sequenced strains</b>. The sequence data for analysis needs to be aligned in advance, and they could be nucleotides, proteins（amino acid） sequences or simply coding gene fragments. For nucleotides and proteins sequences, BioAider could summarizes all the mutation sites with corresponding frequency and strains. 
 
-Of course, if the datas is codon gene, BioAider provides multiple sets of different codon tables for users, and could scan each condon sites in aligned sequence datasets, and identifies the type of mutation, including synonymous, non-synonymous, insertions and deletions and early termination. Finally, BioAider will automatically summarize and output the relevant analysis results.
+Of course, if the data is codon gene, BioAider provides multiple sets of different codon tables for users, and could scan each condon sites in aligned sequence datasets, and identifies the type of mutation, including synonymous, non-synonymous, insertions and deletions and early termination. Finally, BioAider will automatically summarize and output the relevant analysis results.
 
 <b>Note: </b>The codon gene sequences for mutations analysis have to be aligned by translation-alignment methon in advance, It is worth mentioning that BioAider packed three multiple-sequence-alignment software (mafft, muscle and clsutal-omega) in the graphical interface, and provided translation-alignment additionally.
 
