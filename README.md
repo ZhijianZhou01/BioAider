@@ -84,7 +84,7 @@ BioAider provides a quickly sequence annotation function, users can import the a
 ![Fast_Annotation.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Fast_Annotation.png#align=left&display=inline&height=471&margin=%5Bobject%20Object%5D&name=Fast_Annotation.png&originHeight=521&originWidth=571&size=50539&status=done&style=none&width=516)
 
 ### 4.4. Sequence Identity Matrix
-This function contains two different modes: nucleotide or amino acid sequence identity matrix (Single nt or aa), nucleotide plus amino acid sequence identity matrix (Combination nt and aa). It should be noted that if the "Combination nt and aa" is selected, the inputed sequences should be aligned based on codon method. 
+This function contains two different modes: identity matrix for single nucleotide or amino acid (Single nt or aa), identity matrix for combination nucleotide and amino acid (Combination nt and aa). It should be noted that if the "Combination nt and aa" is selected, the inputed sequences should be codon gene and was aligned based on codon method in advance. 
 
 In order to better fit the variation characteristics , BioAider provides the "Condense gap" function. If  the option was selected, the program will treat every 3 consecutive inserted or deleted bases as one.
 
