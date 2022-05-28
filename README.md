@@ -37,7 +37,7 @@ $ chmod -R 777 BioAider_v1.423_linux_20220324
 <b>Note：</b>BioAider will be in long-term development and functional improvement in the future. <b>Only a small part of the features are shown here</b>, please refer to the instruction ![Manual V1.423](https://github.com/ZhijianZhou01/BioAider/blob/master/Manual%20of%20BioAider%20V1.423_220525.pdf) for details.
 
 ### 4.1. Mutation Analysis
-This function could be used for analysis of the <b>mutations characteristicson on large numbers of sequenced strains</b>. The sequence data for analysis needs to be aligned in advance, and they could be nucleotides, proteins（amino acid） sequences or simply coding gene fragments. For nucleotides and proteins sequences, BioAider could summarizes all the mutation sites with corresponding frequency and strains. 
+This function could be used for analysis of the <b>mutation characteristic on large numbers of sequenced strains</b>. The sequence data for analysis needs to be aligned in advance, and they could be nucleotides, proteins（amino acid） sequences or simply coding gene fragments. For nucleotides and proteins sequences, BioAider could summarizes all the mutation sites with corresponding frequency and strains. 
 
 Of course, if the data is codon gene, BioAider provides multiple sets of different codon tables for users, and could scan each condon sites in aligned sequence datasets, and identifies the type of mutation, including synonymous, non-synonymous, insertions and deletions and early termination. Finally, BioAider will automatically summarize and output the relevant analysis results.
 
