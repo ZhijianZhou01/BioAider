@@ -9,6 +9,7 @@
 ### BioAider V1.0 (May 27, 2020)
 The first version of BioAider V1.x.
 
+---
 ### BioAider V1.03 (Jul 22, 2020)
 1. Rewrite and beautify the interface of program by PySide2, add more prompts for controls.
 2. Add a Linux dsitribution (GUI) for Ubuntu (16.04 and more) users.
@@ -18,7 +19,7 @@ Packed three popular multiple-sequence alignment tools(MAFFT, Muscle, Clustal-Om
 5. Increased the pop-up window of program bug and toolbar for some common features.
 Add some new other features and fixed some bugs.
 
-
+---
 ### BioAider V1.314 (Sep 2, 2020)
 1. Add the feature of looking for repetitive fragments.
 2. Add the feature of locating the protein to the nucleotide sequence
