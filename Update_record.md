@@ -4,7 +4,7 @@
 
 ## Latest version: BioAider V1.423 (Mar 24, 2022)
 
----
+
 ## Revision history:
 ### BioAider V1.0 (May 27, 2020)
 The first version of BioAider V1.x.
@@ -42,6 +42,7 @@ Add some new other features and fixed some bugs.
 Please pay special attention:
 On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distribution for MacOS system for the first time, and fixed some bugs in the last uploaded windows and linux version (but keep the version number 1.334 unchanged).
 
+---
 ### BioAider V1.423 (Mar 24, 2022)
 #### Fix bugs
 1. (Important) the output result of "Codon method" in mutations analysis.
@@ -55,6 +56,7 @@ On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distr
 
 3. The problem that the input file or directory cannot contain "."
 
+---
 #### Add new functions
 1. <b>(New and important)</b> Optimized algorithm to greatly speed up BioAider, and quickly perform mutation analysis on hundreds of thousands of pieces of data (2022/03/24).
 
