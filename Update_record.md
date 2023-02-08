@@ -22,8 +22,9 @@ Add some new other features and fixed some bugs.
 ---
 ### BioAider V1.314 (Sep 2, 2020)
 1. Add the feature of looking for repetitive fragments.
-2. Add the feature of locating the protein to the nucleotide sequence
+2. Add the feature of locating the protein to the nucleotide sequence.
 
+---
 ### BioAider V1.334 (Mar 28, 2021)
 1. Add the following functions:
     (1) Viral *.gb file parser: Extract the information from virus *.gb file, such as host, collection date and country, reference article, etc. What's more, BioAider can be extracted and stored according to species relationship;
@@ -56,7 +57,6 @@ On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distr
 
 3. The problem that the input file or directory cannot contain "."
 
----
 #### Add new functions
 1. <b>(New and important)</b> Optimized algorithm to greatly speed up BioAider, and quickly perform mutation analysis on hundreds of thousands of pieces of data (2022/03/24).
 
@@ -68,4 +68,5 @@ On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distr
 
 5. Function to switch various themes freely.
 
+---
 
