@@ -2,13 +2,13 @@
 
 ## Releases: https://github.com/ZhijianZhou01/BioAider/releases
 
-## Latest version: BioAider V1.423
+## Latest version: BioAider V1.423 (Mar 24, 2022)
 
 ## Version history
-### BioAider V1.0
+### BioAider V1.0 (May 27, 2020)
 The first version of BioAider V1.x.
 
-### BioAider V1.03
+### BioAider V1.03 (Jul 22, 2020)
 Rewrite and beautify the interface of program by PySide2, add more prompts for controls.
 Add a Linux dsitribution (GUI) for Ubuntu (16.04 and more) users.
 Packed three popular multiple-sequence alignment tools(MAFFT, Muscle, Clustal-Omega) and provide graphical interfaces. What's more, provide translation-alignment for codon gene.
@@ -18,11 +18,11 @@ Increased the pop-up window of program bug and toolbar for some common features.
 Add some new other features and fixed some bugs.
 
 
-### BioAider V1.314
+### BioAider V1.314 (Sep 2, 2020)
 Add the feature of looking for repetitive fragments.
 Add the feature of locating the protein to the nucleotide sequence
 
-### BioAider V1.334
+### BioAider V1.334 (Mar 28, 2021)
 1.Add the following functions:
     (1) Viral *.gb file parser: Extract the information from virus *.gb file, such as host, collection date and country, reference article, etc. What's more, BioAider can be extracted and stored according to species relationship;
     (2) Ambiguous Base Edition: Processing ambiguous bases and premature stop codons (preparing sequences for PAML analysis);
@@ -40,7 +40,7 @@ Add the feature of locating the protein to the nucleotide sequence
 Please pay special attention:
 On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distribution for MacOS system for the first time, and fixed some bugs in the last uploaded windows and linux version (but keep the version number 1.334 unchanged).
 
-### BioAider V1.423
+### BioAider V1.423 (Mar 24, 2022)
 
 [Fix bugs]
 1. (Important) the output result of "Codon method" in mutations analysis.
