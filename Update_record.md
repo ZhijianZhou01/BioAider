@@ -9,7 +9,7 @@
 ### BioAider V1.0 (May 27, 2020)
 The first version of BioAider V1.x.
 
----
+----
 ### BioAider V1.03 (Jul 22, 2020)
 1. Rewrite and beautify the interface of program by PySide2, add more prompts for controls.
 2. Add a Linux dsitribution (GUI) for Ubuntu (16.04 and more) users.
