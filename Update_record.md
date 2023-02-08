@@ -2,7 +2,9 @@
 
 ## Releases: https://github.com/ZhijianZhou01/BioAider/releases
 
-## Version
+## Latest version: BioAider V1.423
+
+## Version history
 ### BioAider V1.0
 The first version of BioAider V1.x.
 
