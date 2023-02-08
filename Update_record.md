@@ -19,12 +19,12 @@ Packed three popular multiple-sequence alignment tools(MAFFT, Muscle, Clustal-Om
 5. Increased the pop-up window of program bug and toolbar for some common features.
 Add some new other features and fixed some bugs.
 
----
+-----
 ### BioAider V1.314 (Sep 2, 2020)
 1. Add the feature of looking for repetitive fragments.
 2. Add the feature of locating the protein to the nucleotide sequence.
 
----
+-----
 ### BioAider V1.334 (Mar 28, 2021)
 1. Add the following functions:
     (1) Viral *.gb file parser: Extract the information from virus *.gb file, such as host, collection date and country, reference article, etc. What's more, BioAider can be extracted and stored according to species relationship;
@@ -43,7 +43,7 @@ Add some new other features and fixed some bugs.
 Please pay special attention:
 On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distribution for MacOS system for the first time, and fixed some bugs in the last uploaded windows and linux version (but keep the version number 1.334 unchanged).
 
----
+-----
 ### BioAider V1.423 (Mar 24, 2022)
 #### Fix bugs
 1. (Important) the output result of "Codon method" in mutations analysis.
@@ -68,5 +68,5 @@ On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distr
 
 5. Function to switch various themes freely.
 
----
+-----
 
