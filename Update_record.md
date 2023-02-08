@@ -55,14 +55,14 @@ On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distr
 3. The problem that the input file or directory cannot contain "."
 
 #### Add new functions
-1.(New and important) Optimized algorithm to greatly speed up BioAider, and quickly perform mutation analysis on hundreds of thousands of pieces of data (2022/03/24).
+1. <b>(New and important)</b> Optimized algorithm to greatly speed up BioAider, and quickly perform mutation analysis on hundreds of thousands of pieces of data (2022/03/24).
 
-2."Codon" method of mutation analysis add the option to delete "nt sites with both synonymous and nonsynonymous substitution" freely when drawing the graph of "frequency distribution of synonymous and non-synonymous substitution sites".
+2. "Codon" method of mutation analysis add the option to delete "nt sites with both synonymous and nonsynonymous substitution" freely when drawing the graph of "frequency distribution of synonymous and non-synonymous substitution sites".
 
-3.(New and important) Function for drawing a lollipop map of gene (or genome) mutation sites.
+3. (New and important) Function for drawing a lollipop map of gene (or genome) mutation sites.
 
-4.Function to draw scatter,boxplots, violin diagram for data based on seaborn package (GUI interface).
+4. Function to draw scatter,boxplots, violin diagram for data based on seaborn package (GUI interface).
 
-5.Function to switch various themes freely.
+5. Function to switch various themes freely.
 
 
