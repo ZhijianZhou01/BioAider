@@ -7,11 +7,11 @@
 
 ## Revision history
 ### BioAider V1.0 (May 27, 2020)
-The first version of BioAider V1.x.
++ The first version of BioAider V1.x.
 
 -----
 ### BioAider V1.03 (Jul 22, 2020)
-+ Rewrite and beautify the interface of program by PySide2, add more prompts for controls.
++ Rewrite and beautify the interface of program, add more prompts for controls.
 + Add a Linux dsitribution (GUI) for Ubuntu (16.04 and more) users.
 Packed three popular multiple-sequence alignment tools(MAFFT, Muscle, Clustal-Omega) and provide graphical interfaces. What's more, provide translation-alignment for codon gene.
 + Added multiple sets of codon table in multiple-sequence alignment and in features of “Mutation analysis”.
