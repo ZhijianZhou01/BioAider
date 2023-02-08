@@ -13,7 +13,7 @@
 ### BioAider V1.03 (Jul 22, 2020)
 + Rewrite and beautify the interface of program, add more prompts for controls.
 + Add a Linux dsitribution (GUI) for Ubuntu (16.04 and more) users.
-Packed three popular multiple-sequence alignment tools(MAFFT, Muscle, Clustal-Omega) and provide graphical interfaces. What's more, provide translation-alignment for codon gene.
++ Packed three popular multiple-sequence alignment tools(MAFFT, Muscle, Clustal-Omega) and provide graphical interfaces. What's more, provide translation-alignment for codon gene.
 + Added multiple sets of codon table in multiple-sequence alignment and in features of “Mutation analysis”.
 + Add variation analysis of non-coding gene and amino acid sequence in features of “Mutation analysis”.
 + Increased the pop-up window of program bug and toolbar for some common features.
@@ -27,17 +27,17 @@ Packed three popular multiple-sequence alignment tools(MAFFT, Muscle, Clustal-Om
 -----
 ### BioAider V1.334 (Mar 28, 2021)
 + Add the following functions:
-    + Viral *.gb file parser: Extract the information from virus *.gb file, such as host, collection date and country, reference article, etc. What's more, BioAider can be extracted and stored according to species relationship;
-    + Ambiguous Base Edition: Processing ambiguous bases and premature stop codons (preparing sequences for PAML analysis);
-    + Delete Low-Similar Sequence: Removing sequences with similarity below the threshold:
-    + FastTree: Graphical interface of FastTree software, which is suitable for big data;
-    + Date converted to Decimal: Convert date to decimal;
-    + Sequence Batch Download (NCBI): NCBI sequence batch search;
-    + File Merge: Simple function of combining multiple files into one file:
+    + Viral *.gb file parser: Extract the information from virus *.gb file, such as host, collection date and country, reference article, etc. What's more, BioAider can be extracted and stored according to species relationship.
+    + Ambiguous Base Edition: Processing ambiguous bases and premature stop codons (preparing sequences for PAML analysis).
+    + Delete Low-Similar Sequence: Removing sequences with similarity below the threshold.
+    + FastTree: Graphical interface of FastTree software, which is suitable for big data.
+    + Date converted to Decimal: Convert date to decimal.
+    + Sequence Batch Download (NCBI): NCBI sequence batch search.
+    + File Merge: Simple function of combining multiple files into one file.
     + Increased the output linked mutation sites and re-beautified the mapping in Mutation analysis function.
 
 + Fix bugs
-    + Mutation Analysis function: Fixed the bug that the "number of stop codons" cannot be counted in the summary file;
+    + Mutation Analysis function: Fixed the bug that the "number of stop codons" cannot be counted in the summary file.
     + Other bugs.
 
 + Please pay special attention:
@@ -48,10 +48,10 @@ On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distr
 #### Fix bugs
 + <b>(Important)</b> the output result of "Codon method" in mutations analysis.
   + Resolved the bug that could not correctly plot the frequency distribution of synonymous and non-synonymous substitution sites using "base" as the statistical unit (the result of "_substitution frequency distribution.pdf" and "_single syn or non-syn substitution nt sites.csv" and "*_Frequency group of sys and non-sys substitution.txt") when there are a large number of different kinds of mutations at the same codon site (e.g. sequences are from different genera or species, or large number of dinucleotide and trinucleotide substitution sites). Note that even if this bug is resolved, it is not recommended to apply it to the sequence sets with a large variety of variants at the same codon site, because it maybe no real value to count the number of nucleotides sites based on mutation frequency.
-    Tip：Statistical results (such as *_all site.csv and *_mutation site.csv) using "codons" as units are fine for any sequences in the previous version.
+    <b>Tip:</b> Statistical results (such as *_all site.csv and *_mutation site.csv) using "codons" as units are fine for any sequences in the previous version.
 
   + Resolved the bug that incorrect count of nt in "Others information" part in the end of "_mutation site summary.txt" when there are a large number of dinucleotide and trinucleotide substitution sites in sequence sets.
-    Tip：Except for the "Others information" part, everything else in "_mutation site summary.txt" is correct in the previous version.
+    <b>Tip:</b> Except for the "Others information" part, everything else in "_mutation site summary.txt" is correct in the previous version.
 
 + Solved the problem that "Delete Lower similar sequences" cannot run in BioAider v1.334.
 
