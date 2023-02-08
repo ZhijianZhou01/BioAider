@@ -1,10 +1,10 @@
-# BioAider
+# Bioinformatics Aider (BioAider)
 
 ## Releases: https://github.com/ZhijianZhou01/BioAider/releases
 
 ## Latest version: BioAider V1.423 (Mar 24, 2022)
 
-## Version history
+## Version history:
 ### BioAider V1.0 (May 27, 2020)
 The first version of BioAider V1.x.
 
