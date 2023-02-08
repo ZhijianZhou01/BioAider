@@ -14,20 +14,20 @@ The first version of BioAider V1.x.
 + Rewrite and beautify the interface of program by PySide2, add more prompts for controls.
 + Add a Linux dsitribution (GUI) for Ubuntu (16.04 and more) users.
 Packed three popular multiple-sequence alignment tools(MAFFT, Muscle, Clustal-Omega) and provide graphical interfaces. What's more, provide translation-alignment for codon gene.
-3. Added multiple sets of codon table in multiple-sequence alignment and in features of “Mutation analysis”.
-4. Add variation analysis of non-coding gene and amino acid sequence in features of “Mutation analysis”.
-5. Increased the pop-up window of program bug and toolbar for some common features.
-Add some new other features and fixed some bugs.
++ Added multiple sets of codon table in multiple-sequence alignment and in features of “Mutation analysis”.
++ Add variation analysis of non-coding gene and amino acid sequence in features of “Mutation analysis”.
++ Increased the pop-up window of program bug and toolbar for some common features.
++ Add some new other features and fixed some bugs.
 
 -----
 ### BioAider V1.314 (Sep 2, 2020)
-1. Add the feature of looking for repetitive fragments.
-2. Add the feature of locating the protein to the nucleotide sequence.
++ Add the feature of looking for repetitive fragments.
++ Add the feature of locating the protein to the nucleotide sequence.
 
 -----
 ### BioAider V1.334 (Mar 28, 2021)
-1. Add the following functions:
-    (1) Viral *.gb file parser: Extract the information from virus *.gb file, such as host, collection date and country, reference article, etc. What's more, BioAider can be extracted and stored according to species relationship;
++ Add the following functions:
+    + Viral *.gb file parser: Extract the information from virus *.gb file, such as host, collection date and country, reference article, etc. What's more, BioAider can be extracted and stored according to species relationship;
     (2) Ambiguous Base Edition: Processing ambiguous bases and premature stop codons (preparing sequences for PAML analysis);
     (3) Delete Low-Similar Sequence: Removing sequences with similarity below the threshold:
     (4) FastTree: Graphical interface of FastTree software, which is suitable for big data;
