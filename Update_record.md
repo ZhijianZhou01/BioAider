@@ -10,18 +10,18 @@
 The first version of BioAider V1.x.
 
 ### BioAider V1.03 (Jul 22, 2020)
-Rewrite and beautify the interface of program by PySide2, add more prompts for controls.
-Add a Linux dsitribution (GUI) for Ubuntu (16.04 and more) users.
+1. Rewrite and beautify the interface of program by PySide2, add more prompts for controls.
+2. Add a Linux dsitribution (GUI) for Ubuntu (16.04 and more) users.
 Packed three popular multiple-sequence alignment tools(MAFFT, Muscle, Clustal-Omega) and provide graphical interfaces. What's more, provide translation-alignment for codon gene.
-Added multiple sets of codon table in multiple-sequence alignment and in features of “Mutation analysis”.
-Add variation analysis of non-coding gene and amino acid sequence in features of “Mutation analysis”.
-Increased the pop-up window of program bug and toolbar for some common features.
+3. Added multiple sets of codon table in multiple-sequence alignment and in features of “Mutation analysis”.
+4. Add variation analysis of non-coding gene and amino acid sequence in features of “Mutation analysis”.
+5. Increased the pop-up window of program bug and toolbar for some common features.
 Add some new other features and fixed some bugs.
 
 
 ### BioAider V1.314 (Sep 2, 2020)
-Add the feature of looking for repetitive fragments.
-Add the feature of locating the protein to the nucleotide sequence
+1. Add the feature of looking for repetitive fragments.
+2. Add the feature of locating the protein to the nucleotide sequence
 
 ### BioAider V1.334 (Mar 28, 2021)
 1.Add the following functions:
