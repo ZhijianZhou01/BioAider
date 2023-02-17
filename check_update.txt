@@ -5,6 +5,7 @@ BioAider auto update label: False;
 BioAider latest version: BioAider V1.423 (Mar 24, 2022);
 
 Latest version describer:
+(describer start)
 ## BioAider V1.423
 #### Fix bugs
 + <b>(Important)</b> the output result of "Codon method" in mutations analysis.
@@ -27,4 +28,5 @@ Latest version describer:
 + Function to draw scatter,boxplots, violin diagram for data based on seaborn package (GUI interface).
 + Function to switch various themes freely.
 
+(describer end)
 }ends
