@@ -2,8 +2,8 @@ auto_update_tip = {False};
 
 Latest version: {BioAider V1.423 (Mar 24, 2022)};
 
-Latest version describe：{
-
+Latest version describer:
+{
 ## BioAider V1.423
 #### Fix bugs
 + <b>(Important)</b> the output result of "Codon method" in mutations analysis.
@@ -25,6 +25,4 @@ Latest version describe：{
 + (New and important) Function for drawing a lollipop map of gene (or genome) mutation sites.
 + Function to draw scatter,boxplots, violin diagram for data based on seaborn package (GUI interface).
 + Function to switch various themes freely.
-
-
 }
