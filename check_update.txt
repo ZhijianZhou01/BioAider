@@ -1,9 +1,10 @@
+check_update = {
+
 BioAider auto update label: False;
 
 BioAider latest version: BioAider V1.423 (Mar 24, 2022);
 
 Latest version describer:
-start{
 ## BioAider V1.423
 #### Fix bugs
 + <b>(Important)</b> the output result of "Codon method" in mutations analysis.
