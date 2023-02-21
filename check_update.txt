@@ -21,7 +21,7 @@ Latest version describer:
   
   + <b>Blast management platform</b>. Greatly simplify library construction and sequence alignment, and provide convenient management of multiple databases.
 
-+ Provides an efficient electronic-lab-notebook to support recording experiments and managing them.
++ Provides an <b>efficient electronic-lab-notebook</b> to support recording experiments and managing them.
   
 + Increase update detection of software version, including manual and automatic one.
 
