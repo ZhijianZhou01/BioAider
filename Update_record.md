@@ -69,7 +69,7 @@ On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distr
 + Function to switch various themes freely.
 
 
-## BioAider V1.527 (February 21, 2023)
+## BioAider V1.527 (Feb 21, 2023)
 ### Add new functions
 
 + Provides tools for hierarchical clustering based on k-mer features of nucleotide sequence.
