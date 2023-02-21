@@ -2,31 +2,42 @@ check_update = {
 
 BioAider auto update label: False;
 
-BioAider latest version: BioAider V1.423 (Mar 24, 2022);
+BioAider latest version: BioAider V1.527 (Feb 21, 2023);
 
 Latest version describer:
 (describer start)
-## BioAider V1.423
-#### Fix bugs
-+ <b>(Important)</b> the output result of "Codon method" in mutations analysis.
-  + Resolved the bug that could not correctly plot the frequency distribution of synonymous and non-synonymous substitution sites using "base" as the statistical unit (the result of "_substitution frequency distribution.pdf" and "_single syn or non-syn substitution nt sites.csv" and "*_Frequency group of sys and non-sys substitution.txt") when there are a large number of different kinds of mutations at the same codon site (e.g. sequences are from different genera or species, or large number of dinucleotide and trinucleotide substitution sites). Note that even if this bug is resolved, it is not recommended to apply it to the sequence sets with a large variety of variants at the same codon site, because it maybe no real value to count the number of nucleotides sites based on mutation frequency.
-    <b>Tip: </b>Statistical results (such as *_all site.csv and *_mutation site.csv) using "codons" as units are fine for any sequences in the previous version.
+## BioAider V1.527 (February 21, 2023)
+### Add new functions
 
-  + Resolved the bug that incorrect count of nt in "Others information" part in the end of "_mutation site summary.txt" when there are a large number of dinucleotide and trinucleotide substitution sites in sequence sets.
-    <b>Tip: </b>Except for the "Others information" part, everything else in "_mutation site summary.txt" is correct in the previous version.
++ Provides tools for hierarchical clustering based on k-mer features of nucleotide sequence.
 
-+ Solved the problem that "Delete Lower similar sequences" cannot run in BioAider v1.334.
++ Added options for nucleotide, codon and amino acid in the Linked mode of <b>"Mutation Analysis"</b>. 
 
-+ The problem that the input file or directory cannot contain "."
++ For codon data, add output the result that can be used to draw mutant lollipops in <b>"Mutation Analysis"</b>.
 
-#### Add new functions
-+ <b>(New and important)</b> Optimized algorithm to greatly speed up BioAider, and quickly perform mutation analysis on hundreds of thousands of pieces of data (2022/03/24).
++ Graphical some classic character-interface programs (plug-in form)
+  + Add the graphical interface for <b>IQ-Tree, MrBayes, ModelFinder</b>, to make them quick and easy to use.
+  + Added conversion tool of model parameter, and easily prepare model-files for IQ-Tree and MrBayes When the sequence data is partitioned.
+  
+  + <b>Blast management platform</b>. Greatly simplify library construction and sequence alignment, and provide convenient management of multiple databases.
 
-+ "Codon" method of mutation analysis add the option to delete "nt sites with both synonymous and nonsynonymous substitution" freely when drawing the graph of "frequency distribution of synonymous and non-synonymous substitution sites".
++ Provides an efficient electronic-lab-notebook to support recording experiments and managing them.
+  
++ Increase update detection of software version, including manual and automatic one.
 
-+ (New and important) Function for drawing a lollipop map of gene (or genome) mutation sites.
-+ Function to draw scatter,boxplots, violin diagram for data based on seaborn package (GUI interface).
-+ Function to switch various themes freely.
++ Support changing font and font size of software.
+
++ Add codon-extraction function in <b>"Sequence Vary"</b>, including two modes, (1, 2 , 3) and (1 + 2, 3).
+
++ Support adding and deleting shortcuts, quickly access other software while using BioAider.
+
+
+### Fix bugs in version 1.423
+
++ The function of "Repeat Fragment Search" cannot work in BioAider V1.423.
++ The "Remove High-Similar sequences" cannot work in BioAider V1.423.
++ The file directory of the main interface cannot be automatically updated in BioAider V1.423.
++ Some bugs on sorftware interface. Optimize interactive operation and beautify the interface.
 
 (describer end)
 }ends
