@@ -7,11 +7,11 @@
 
 # Revision history
 
------
+
 ## BioAider V1.0 (May 27, 2020)
 + The first version of BioAider V1.x.
 
------
+
 ## BioAider V1.03 (Jul 22, 2020)
 + Rewrite and beautify the interface of program, add more prompts for controls.
 + Add a Linux dsitribution (GUI) for Ubuntu (16.04 and more) users.
@@ -21,12 +21,12 @@
 + Increased the pop-up window of program bug and toolbar for some common features.
 + Add some new other features and fixed some bugs.
 
------
+
 ## BioAider V1.314 (Sep 2, 2020)
 + Add the feature of looking for repetitive fragments.
 + Add the feature of locating the protein to the nucleotide sequence.
 
------
+
 ## BioAider V1.334 (Mar 28, 2021)
 + Add the following functions:
     + Viral *.gb file parser: Extract the information from virus *.gb file, such as host, collection date and country, reference article, etc. What's more, BioAider can be extracted and stored according to species relationship.
@@ -45,7 +45,7 @@
 + Please pay special attention:
 On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distribution for MacOS system for the first time, and fixed some bugs in the last uploaded windows and linux version (but keep the version number 1.334 unchanged).
 
------
+
 ## BioAider V1.423 (Mar 24, 2022)
 ### Fix bugs
 + <b>(Important)</b> the output result of "Codon method" in mutations analysis.
@@ -68,5 +68,5 @@ On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distr
 + Function to draw scatter,boxplots, violin diagram for data based on seaborn package (GUI interface).
 + Function to switch various themes freely.
 
------
+
 
