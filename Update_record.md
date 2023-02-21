@@ -6,11 +6,11 @@
 
 
 ## Revision history
-### BioAider V1.0 (May 27, 2020)
+## BioAider V1.0 (May 27, 2020)
 + The first version of BioAider V1.x.
 
 -----
-### BioAider V1.03 (Jul 22, 2020)
+## BioAider V1.03 (Jul 22, 2020)
 + Rewrite and beautify the interface of program, add more prompts for controls.
 + Add a Linux dsitribution (GUI) for Ubuntu (16.04 and more) users.
 + Packed three popular multiple-sequence alignment tools(MAFFT, Muscle, Clustal-Omega) and provide graphical interfaces. What's more, provide translation-alignment for codon gene.
@@ -20,12 +20,12 @@
 + Add some new other features and fixed some bugs.
 
 -----
-### BioAider V1.314 (Sep 2, 2020)
+## BioAider V1.314 (Sep 2, 2020)
 + Add the feature of looking for repetitive fragments.
 + Add the feature of locating the protein to the nucleotide sequence.
 
 -----
-### BioAider V1.334 (Mar 28, 2021)
+## BioAider V1.334 (Mar 28, 2021)
 + Add the following functions:
     + Viral *.gb file parser: Extract the information from virus *.gb file, such as host, collection date and country, reference article, etc. What's more, BioAider can be extracted and stored according to species relationship.
     + Ambiguous Base Edition: Processing ambiguous bases and premature stop codons (preparing sequences for PAML analysis).
@@ -44,8 +44,8 @@
 On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distribution for MacOS system for the first time, and fixed some bugs in the last uploaded windows and linux version (but keep the version number 1.334 unchanged).
 
 -----
-### BioAider V1.423 (Mar 24, 2022)
-#### Fix bugs
+## BioAider V1.423 (Mar 24, 2022)
+### Fix bugs
 + <b>(Important)</b> the output result of "Codon method" in mutations analysis.
   + Resolved the bug that could not correctly plot the frequency distribution of synonymous and non-synonymous substitution sites using "base" as the statistical unit (the result of "_substitution frequency distribution.pdf" and "_single syn or non-syn substitution nt sites.csv" and "*_Frequency group of sys and non-sys substitution.txt") when there are a large number of different kinds of mutations at the same codon site (e.g. sequences are from different genera or species, or large number of dinucleotide and trinucleotide substitution sites). Note that even if this bug is resolved, it is not recommended to apply it to the sequence sets with a large variety of variants at the same codon site, because it maybe no real value to count the number of nucleotides sites based on mutation frequency.
     <b>Tip: </b>Statistical results (such as *_all site.csv and *_mutation site.csv) using "codons" as units are fine for any sequences in the previous version.
@@ -57,7 +57,7 @@ On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distr
 
 + The problem that the input file or directory cannot contain "."
 
-#### Add new functions
+### Add new functions
 + <b>(New and important)</b> Optimized algorithm to greatly speed up BioAider, and quickly perform mutation analysis on hundreds of thousands of pieces of data (2022/03/24).
 
 + "Codon" method of mutation analysis add the option to delete "nt sites with both synonymous and nonsynonymous substitution" freely when drawing the graph of "frequency distribution of synonymous and non-synonymous substitution sites".
