@@ -69,4 +69,38 @@ On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distr
 + Function to switch various themes freely.
 
 
+## BioAider V1.527 (February 21, 2023)
+### Add new functions
+
++ Provides tools for hierarchical clustering based on k-mer features of nucleotide sequence.
+
++ Added options for nucleotide, codon and amino acid in the Linked mode of <b>"Mutation Analysis"</b>. 
+
++ For codon data, add output the result that can be used to draw mutant lollipops in <b>"Mutation Analysis"</b>.
+
++ Graphical some classic character-interface programs (plug-in form)
+  + Add the graphical interface for <b>IQ-Tree, MrBayes, ModelFinder</b>, to make them quick and easy to use.
+  + Added conversion tool of model parameter, and easily prepare model-files for IQ-Tree and MrBayes When the sequence data is partitioned.
+  
+  + <b>Blast management platform</b>. Greatly simplify library construction and sequence alignment, and provide convenient management of multiple databases.
+
++ Provides an efficient electronic-lab-notebook to support recording experiments and managing them.
+  
++ Increase update detection of software version, including manual and automatic one.
+
++ Support changing font and font size of software.
+
++ Add codon-extraction function in <b>"Sequence Vary"</b>, including two modes, (1, 2 , 3) and (1 + 2, 3).
+
++ Support adding and deleting shortcuts, quickly access other software while using BioAider.
+
+
+### Fix bugs in version 1.423
+
++ The function of "Repeat Fragment Search" cannot work in BioAider V1.423.
++ The "Remove High-Similar sequences" cannot work in BioAider V1.423.
++ The file directory of the main interface cannot be automatically updated in BioAider V1.423.
++ Some bugs on sorftware interface. Optimize interactive operation and beautify the interface.
+
+
 
