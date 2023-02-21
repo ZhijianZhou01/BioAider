@@ -6,7 +6,7 @@ BioAider latest version: BioAider V1.527 (Feb 21, 2023);
 
 Latest version describer:
 (describer start)
-## BioAider V1.527 (February 21, 2023)
+## BioAider V1.527 (Feb 21, 2023)
 ### Add new functions
 
 + Provides tools for hierarchical clustering based on k-mer features of nucleotide sequence.
