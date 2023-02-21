@@ -7,7 +7,7 @@
 
 [![](https://img.shields.io/badge/Doi-10.1016/j.scs.2020.102466-yellow.svg)](https://doi.org/Doi:10.1016/j.scs.2020.102466) 
 
-<label style="color:red">BioAider V1.527 is stronger and more stable, we highly recommend it.</label>
+<font color="red">BioAider V1.527 is stronger and more stable, we highly recommend it.</font>
 
 ## 1. Introduction
 With the development of sequencing technology, a large amount of genomic sequenced data has been accumulated. Analysis of these data will help us understand their genetic variation at the molecular level. However, processing in a large-scale sequence data is difficult for biological or clinical expert without bioinformatics or programming skills. Besides, the needs are also diverse due to different research purposes. Therefore, software with diversity of function and simplicity of operation is very valuable.
