@@ -5,7 +5,7 @@
 ## Latest version: BioAider V1.423 (Mar 24, 2022)
 
 
-## Revision history
+# Revision history
 ## BioAider V1.0 (May 27, 2020)
 + The first version of BioAider V1.x.
 
