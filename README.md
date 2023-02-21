@@ -2,11 +2,12 @@
 
 ![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/1.314/total?)
 ![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/1.334/total?)
-[![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/1.423/total?color=red&style=flat-square)](https://github.com/ZhijianZhou01/BioAider/releases/tag/1.423)
+![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/1.423/total?)
+[![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/1.527/total?color=red&style=flat-square)](https://github.com/ZhijianZhou01/BioAider/releases/tag/1.527)
 
 [![](https://img.shields.io/badge/Doi-10.1016/j.scs.2020.102466-yellow.svg)](https://doi.org/Doi:10.1016/j.scs.2020.102466) 
 
-
+<b>BioAider V1.527 is stronger and more stable, we highly recommend it.<b>
 
 ## 1. Introduction
 With the development of sequencing technology, a large amount of genomic sequenced data has been accumulated. Analysis of these data will help us understand their genetic variation at the molecular level. However, processing in a large-scale sequence data is difficult for biological or clinical expert without bioinformatics or programming skills. Besides, the needs are also diverse due to different research purposes. Therefore, software with diversity of function and simplicity of operation is very valuable.
