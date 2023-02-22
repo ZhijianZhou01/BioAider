@@ -13,7 +13,7 @@ Latest version describer:
 
 + Added options for nucleotide, codon and amino acid in the Linked mode of <b>"Mutation Analysis"</b>. 
 
-+ For codon data, add output the result in <b>"Mutation Analysis"</b> that can be used to draw mutant lollipops.
++ For codon data, add the output result in <b>"Mutation Analysis"</b> that can be used to draw mutant lollipops.
 
 + Support multiple opening of the same pop-up window to run multiple data at the same time.
 
