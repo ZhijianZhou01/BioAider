@@ -76,7 +76,7 @@ On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distr
 
 + Added options for nucleotide, codon and amino acid in the Linked mode of <b>"Mutation Analysis"</b>. 
 
-+ For codon data, add output the result that can be used to draw mutant lollipops in <b>"Mutation Analysis"</b>.
++ For codon data, add the output result that can be used to draw mutant lollipops in <b>"Mutation Analysis"</b>.
 
 + Graphical some classic character-interface programs (plug-in form)
   + Add the graphical interface for <b>IQ-Tree, MrBayes, ModelFinder</b>, to make them quick and easy to use.
