@@ -40,7 +40,6 @@
 
 + Fix bugs
     + Mutation Analysis function: Fixed the bug that the "number of stop codons" cannot be counted in the summary file.
-    + Other bugs.
 
 + Please pay special attention:
 On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distribution for MacOS system for the first time, and fixed some bugs in the last uploaded windows and linux version (but keep the version number 1.334 unchanged).
