@@ -7,6 +7,8 @@
 
 [![](https://img.shields.io/badge/Doi-10.1016/j.scs.2020.102466-yellow.svg)](https://doi.org/Doi:10.1016/j.scs.2020.102466) 
 
+Note that versions prior to 1.423 are not optimized for large data read acceleration
+
 <b>BioAider V1.527 (Feb 21, 2023) is stronger and more stable, we highly recommend it.</b>
 
 ## 1. Introduction
