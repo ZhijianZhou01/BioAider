@@ -14,7 +14,7 @@
 ## 1. Introduction
 With the development of sequencing technology, a large amount of genomic sequenced data has been accumulated. Analysis of these data will help us understand their genetic variation at the molecular level. However, processing in a large-scale sequence data is difficult for biological or clinical expert without bioinformatics or programming skills. Besides, the needs are also diverse due to different research purposes. Therefore, software with diversity of function and simplicity of operation is very valuable.
 
-BioAider is developed based on Python3, which is a user-friendly program with GUI-interface. As a desktop platform, the design concept of BioAider is that simplicity of operation and high summary of analysis results, which could save a lot of time for researchers.
+BioAider is developed based on Python3, which is a user-friendly program with GUI-interface. <b>As a desktop platform, the design concept of BioAider is that simplicity of operation and high summary of analysis results, which could save a lot of time for researchers</b>.
 ![BioAider](https://github.com/ZhijianZhou01/BioAider/blob/master/Figures/BioAider.jpg)
 
 Since its release, BioAider has been used in research by several researchers and appeared in some publications. In the future, we will continue to optimize BioAider and add new features.
