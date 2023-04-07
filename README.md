@@ -8,7 +8,7 @@
 ![](https://img.shields.io/badge/System-Windows/Linux/MacOS-green.svg)
 [![](https://img.shields.io/badge/Doi-10.1016/j.scs.2020.102466-yellow.svg)](https://doi.org/Doi:10.1016/j.scs.2020.102466) 
 
-<b>Note</b> that versions prior to 1.423 were not optimized read speed for large data.
+<b>Note</b> that versions lower than 1.423 were not optimized read speed for large data.
 
 ### BioAider V1.527 (Feb 21, 2023) is stronger and more stable, we highly recommend it.
 
