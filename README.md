@@ -3,7 +3,7 @@
 [![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/1.527/total?color=red&style=flat-square)](https://github.com/ZhijianZhou01/BioAider/releases/tag/1.527)
 ![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/1.423/total?)
 ![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/1.334/total?)
-![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/1.314/total?)
+
 
 ![](https://img.shields.io/github/issues/ZhijianZhou01/BioAider)
 ![](https://img.shields.io/github/issues-closed/ZhijianZhou01/BioAider)
