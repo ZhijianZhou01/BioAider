@@ -1,9 +1,9 @@
 # Bioinformatics Aider (BioAider)
 ![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/total)
-![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/1.314/total?)
-![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/1.334/total?)
-![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/1.423/total?)
 [![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/1.527/total?color=red&style=flat-square)](https://github.com/ZhijianZhou01/BioAider/releases/tag/1.527)
+![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/1.423/total?)
+![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/1.334/total?)
+![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/1.314/total?)
 
 ![](https://img.shields.io/badge/System-Windows/Linux/MacOS-green.svg)
 [![](https://img.shields.io/badge/Doi-10.1016/j.scs.2020.102466-yellow.svg)](https://doi.org/Doi:10.1016/j.scs.2020.102466) 
