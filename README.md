@@ -1,4 +1,5 @@
 # Bioinformatics Aider (BioAider)
+![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/total)
 
 ![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/1.314/total?)
 ![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/1.334/total?)
