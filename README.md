@@ -5,11 +5,11 @@
 ![](https://img.shields.io/github/downloads/ZhijianZhou01/BioAider/1.334/total?)
 
 
-![](https://img.shields.io/github/issues/ZhijianZhou01/BioAider)
-![](https://img.shields.io/github/issues-closed/ZhijianZhou01/BioAider)
-
 ![](https://img.shields.io/badge/System-Windows/Linux/MacOS-green.svg)
 [![](https://img.shields.io/badge/Doi-10.1016/j.scs.2020.102466-yellow.svg)](https://doi.org/Doi:10.1016/j.scs.2020.102466) 
+
+![](https://img.shields.io/github/issues/ZhijianZhou01/BioAider)
+![](https://img.shields.io/github/issues-closed/ZhijianZhou01/BioAider)
 
 <b>Note</b> that versions lower than 1.423 were not optimized read speed for large data.
 
