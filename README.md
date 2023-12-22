@@ -21,6 +21,11 @@ BioAider is developed based on Python3, which is a user-friendly program with GU
 
 ![BioAider](https://github.com/ZhijianZhou01/BioAider/blob/master/Figures/BioAider.jpg)
 
+<div align="center">
+<a href=https://www.sciencedirect.com/science/article/pii/S2210670720306867>Zhou et al., <i> Sustainable Cities and Society</i>, 2020</a>
+</div>
+
+
 Since its release, BioAider has been used in research by several researchers and appeared in some publications. In the future, we will continue to optimize BioAider and add new features.
 
 ## 2. Download, install and run
@@ -104,7 +109,7 @@ BioAider provides mutual conversion among several common sequence formats, which
 
 
 ## 5. Test Datas
-[Example](https://github.com/ZhijianZhou01/BioAider/tree/master/Example)
+Please see [Example](https://github.com/ZhijianZhou01/BioAider/tree/master/Example)
 
 ## 6. Bug report
 [Github issues](https://github.com/ZhijianZhou01/BioAider/issues) or send email to zjzhou@hnu.edu.cn.
