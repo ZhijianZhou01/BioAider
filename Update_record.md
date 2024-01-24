@@ -15,7 +15,7 @@
 ## BioAider V1.03 (Jul 22, 2020)
 + Rewrite and beautify the interface of program, add more prompts for controls.
 + Add a Linux dsitribution (GUI) for Ubuntu (16.04 and more) users.
-+ Packed three popular multiple-sequence alignment tools(MAFFT, Muscle, Clustal-Omega) and provide graphical interfaces. What's more, provide translation-alignment for codon gene.
++ Provide graphical interfaces for three popular multiple-sequence alignment tools ([MAFFT](https://academic.oup.com/mbe/article/30/4/772/1073398), [Muscle](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-5-113), [Clustal-Omega](https://www.embopress.org/doi/full/10.1038/msb.2011.75)), to make them easy to use. What's more, provide translation-alignment for codon gene. The copy of these tools is in https://github.com/ZhijianZhou01/plugins/releases/download/plugins/external_program.zip. Thanks to the developers of these programs. If you need them, please unzip external_program.zip and put the directory external_program in the root directory of the BioAider.
 + Added multiple sets of codon table in multiple-sequence alignment and in features of “Mutation analysis”.
 + Add variation analysis of non-coding gene and amino acid sequence in features of “Mutation analysis”.
 + Increased the pop-up window of program bug and toolbar for some common features.
@@ -32,7 +32,7 @@
     + Viral *.gb file parser: Extract the information from virus *.gb file, such as host, collection date and country, reference article, etc. What's more, BioAider can be extracted and stored according to species relationship.
     + Ambiguous Base Edition: Processing ambiguous bases and premature stop codons (preparing sequences for PAML analysis).
     + Delete Low-Similar Sequence: Removing sequences with similarity below the threshold.
-    + FastTree: Graphical interface of FastTree software, which is suitable for big data.
+    + Provide graphical interface for [FastTree](https://www.embopress.org/doi/full/10.1038/msb.2011.75) software, which is suitable for big data. Thanks to the FastTree development team. The copy of FastTree software is in https://github.com/ZhijianZhou01/plugins/releases/download/plugins/external_program.zip. If you need it, please unzip external_program.zip and put the directory external_program in the root directory of the BioAider.
     + Date converted to Decimal: Convert date to decimal.
     + Sequence Batch Download (NCBI): NCBI sequence batch search.
     + File Merge: Simple function of combining multiple files into one file.
@@ -75,13 +75,15 @@ On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distr
 
 + Added options for nucleotide, codon and amino acid in the Linked mode of <b>"Mutation Analysis"</b>. 
 
-+ For codon data, add the output result that can be used to draw mutant lollipops in <b>"Mutation Analysis"</b>.
++ For codon data, add the output result in <b>"Mutation Analysis"</b> that can be used to draw mutant lollipops.
 
-+ Graphical some classic character-interface programs (plug-in form)
-  + Add the graphical interface for <b>IQ-Tree, MrBayes, ModelFinder</b>, to make them quick and easy to use.
++ Support multiple opening of the same pop-up window to run multiple data at the same time.
+
++ Provide graphical interfaces for some classic command-line  programs
+  + Provide the graphical interfaces for [IQ-Tree](https://academic.oup.com/mbe/article/37/5/1530/5721363), [MrBayes](https://nbisweden.github.io/MrBayes/index.html) and [ModelFinder](https://www.nature.com/articles/nmeth.4285) softwares, to make them easy to use. These tools are loaded as plugins at the user's choice in BioAider. Thanks to development teams of these classic softwares.
   + Added conversion tool of model parameter, and easily prepare model-files for IQ-Tree and MrBayes When the sequence data is partitioned.
   
-  + <b>Blast management platform</b>. Greatly simplify library construction and sequence alignment, and provide convenient management of multiple databases.
+  + Provide a graphical interface for [Blast](https://pubmed.ncbi.nlm.nih.gov/2231712/). The Blast program is loaded as plugin at the user's choice in BioAider. Greatly simplify library construction and sequence alignment, and provide convenient management of multiple databases. Thanks to development team of Blast software.
 
 + Provides an <b>efficient electronic-lab-notebook</b> to support recording experiments and managing them.
   
