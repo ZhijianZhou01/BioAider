@@ -17,11 +17,11 @@ Latest version describer:
 
 + Support multiple opening of the same pop-up window to run multiple data at the same time.
 
-+ Graphical some classic character-interface programs (plug-in form)
-  + Add the graphical interface for <b>IQ-Tree, MrBayes, ModelFinder</b>, to make them quick and easy to use.
++ Provide graphical interfaces for some classic command-line  programs
+  + Provide the graphical interfaces for [IQ-Tree](https://academic.oup.com/mbe/article/37/5/1530/5721363), [MrBayes](https://nbisweden.github.io/MrBayes/index.html) and [ModelFinder](https://www.nature.com/articles/nmeth.4285) softwares, to make them easy to use. These tools are loaded as plugins at the user's choice in BioAider. Thanks to development teams of these classic softwares.
   + Added conversion tool of model parameter, and easily prepare model-files for IQ-Tree and MrBayes When the sequence data is partitioned.
   
-  + <b>Blast management platform</b>. Greatly simplify library construction and sequence alignment, and provide convenient management of multiple databases.
+  + Provide a graphical interface for [Blast](https://pubmed.ncbi.nlm.nih.gov/2231712/). The Blast program is loaded as plugin at the user's choice in BioAider. Greatly simplify library construction and sequence alignment, and provide convenient management of multiple databases. Thanks to development team of Blast software.
 
 + Provides an <b>efficient electronic-lab-notebook</b> to support recording experiments and managing them.
   
