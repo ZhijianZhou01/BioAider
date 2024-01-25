@@ -90,7 +90,7 @@ On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distr
 + Support adding and deleting shortcuts, quickly access other software while using BioAider.
 
 + Provide graphical interfaces for some classic command-line  programs
-  + Provide the graphical interfaces for [IQ-Tree](https://academic.oup.com/mbe/article/37/5/1530/5721363), [MrBayes](https://nbisweden.github.io/MrBayes/index.html) and [ModelFinder](https://www.nature.com/articles/nmeth.4285) softwares, to make them easy to use. These tools are loaded as plugins at the user's choice in BioAider. Thanks to development teams of these classic softwares.
+  + Provide the graphical interfaces for [IQ-Tree](https://academic.oup.com/mbe/article/37/5/1530/5721363), [MrBayes](https://doi.org/10.1093/sysbio/sys029) and [ModelFinder](https://www.nature.com/articles/nmeth.4285) softwares, to make them easy to use. These tools are loaded as plugins at the user's choice in BioAider. Thanks to development teams of these classic softwares.
   + Added conversion tool of model parameter, and easily prepare model-files for IQ-Tree and MrBayes When the sequence data is partitioned.
   
   + Provide a graphical interface for [Blast](https://pubmed.ncbi.nlm.nih.gov/2231712/). The Blast program is loaded as plugin at the user's choice in BioAider. Greatly simplify library construction and sequence alignment, and provide convenient management of multiple databases. Thanks to development team of Blast software.
