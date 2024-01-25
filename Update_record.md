@@ -19,7 +19,7 @@
 + Add variation analysis of non-coding gene and amino acid sequence in features of “Mutation analysis”.
 + Increased the pop-up window of program bug and toolbar for some common features.
 + Add some new other features and fixed some bugs.
-+ Provide graphical interfaces for three popular multiple-sequence alignment tools ([MAFFT](https://academic.oup.com/mbe/article/30/4/772/1073398), [Muscle](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-5-113), [Clustal-Omega](https://www.embopress.org/doi/full/10.1038/msb.2011.75)), to make them easy to use. What's more, provide translation-alignment for codon gene. The copy of these tools is in https://github.com/ZhijianZhou01/plugins/releases/download/plugins/external_program.zip. Thanks to the developers of these programs. If you need them, please unzip external_program.zip and put the directory external_program in the root directory of the BioAider.
++ Provide graphical interfaces for three popular multiple-sequence alignment tools ([MAFFT](https://academic.oup.com/mbe/article/30/4/772/1073398), [Muscle](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-5-113), [Clustal-Omega](https://www.embopress.org/doi/full/10.1038/msb.2011.75)), to facilitate parameter setting and usage. What's more, provide translation-alignment for codon gene. The copy of these tools is in https://github.com/ZhijianZhou01/plugins/releases/download/plugins/external_program.zip. Thanks to the developers of these programs. If you need them, please unzip external_program.zip and put the directory external_program in the root directory of the BioAider.
 
 
 ## BioAider V1.314 (Sep 2, 2020)
@@ -36,7 +36,7 @@
     + Sequence Batch Download (NCBI): NCBI sequence batch search.
     + File Merge: Simple function of combining multiple files into one file.
     + Increased the output linked mutation sites and re-beautified the mapping in Mutation analysis function.
-    + Provide graphical interface for [FastTree](https://www.embopress.org/doi/full/10.1038/msb.2011.75) software, which is suitable for big data. Thanks to the FastTree development team. The copy of FastTree software is in https://github.com/ZhijianZhou01/plugins/releases/download/plugins/external_program.zip. If you need it, please unzip external_program.zip and put the directory external_program in the root directory of the BioAider.
+    + Provide graphical interface for [FastTree](https://www.embopress.org/doi/full/10.1038/msb.2011.75) software, to facilitate parameter setting and usage. Thanks to the FastTree development team. The copy of FastTree software is in https://github.com/ZhijianZhou01/plugins/releases/download/plugins/external_program.zip. If you need it, please unzip external_program.zip and put the directory external_program in the root directory of the BioAider.
 
 + Fix bugs
     + Mutation Analysis function: Fixed the bug that the "number of stop codons" cannot be counted in the summary file.
@@ -90,10 +90,10 @@ On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distr
 + Support adding and deleting shortcuts, quickly access other software while using BioAider.
 
 + Provide graphical interfaces for some classic command-line  programs
-  + Provide the graphical interfaces for [IQ-Tree](https://academic.oup.com/mbe/article/37/5/1530/5721363), [MrBayes](https://doi.org/10.1093/sysbio/sys029) and [ModelFinder](https://www.nature.com/articles/nmeth.4285) softwares, to make them easy to use. These tools are loaded as plugins at the user's choice in BioAider. Thanks to development teams of these classic softwares.
+  + Provide the graphical interfaces for [IQ-Tree](https://academic.oup.com/mbe/article/37/5/1530/5721363), [MrBayes](https://doi.org/10.1093/sysbio/sys029) and [ModelFinder](https://www.nature.com/articles/nmeth.4285) softwares, to facilitate parameter setting and usage. These tools are loaded as plugins at the user's choice in BioAider. Thanks to development teams of these classic softwares.
   + Added conversion tool of model parameter, and easily prepare model-files for IQ-Tree and MrBayes When the sequence data is partitioned.
   
-  + Provide a graphical interface for [Blast](https://pubmed.ncbi.nlm.nih.gov/2231712/). The Blast program is loaded as plugin at the user's choice in BioAider. Greatly simplify library construction and sequence alignment, and provide convenient management of multiple databases. Thanks to development team of Blast software.
+  + Provide a graphical interface for [Blast](https://pubmed.ncbi.nlm.nih.gov/2231712/), to facilitate parameter setting and usage. The Blast program is loaded as plugin at the user's choice in BioAider. Greatly simplify library construction and sequence alignment, and provide convenient management of multiple databases. Thanks to development team of Blast software.
 
 
 
@@ -103,6 +103,4 @@ On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distr
 + The "Remove High-Similar sequences" cannot work in BioAider V1.423.
 + The file directory of the main interface cannot be automatically updated in BioAider V1.423.
 + Some bugs on sorftware interface. Optimize interactive operation and beautify the interface.
-
-
 
