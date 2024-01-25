@@ -19,7 +19,7 @@
 + Add variation analysis of non-coding gene and amino acid sequence in features of “Mutation analysis”.
 + Increased the pop-up window of program bug and toolbar for some common features.
 + Add some new other features and fixed some bugs.
-+ Provide graphical interfaces for three popular multiple-sequence alignment tools ([MAFFT](https://academic.oup.com/mbe/article/30/4/772/1073398), [Muscle](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-5-113), [Clustal-Omega](https://www.embopress.org/doi/full/10.1038/msb.2011.75)), to facilitate parameter setting and usage. What's more, provide translation-alignment for codon gene. The copy of these tools is in https://github.com/ZhijianZhou01/plugins/releases/download/plugins/external_program.zip. Thanks to the developers of these programs. If you need them, please unzip external_program.zip and put the directory external_program in the root directory of the BioAider.
++ Provide graphical interfaces for three popular multiple-sequence alignment tools ([MAFFT](https://academic.oup.com/mbe/article/30/4/772/1073398), [Muscle](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-5-113), [Clustal-Omega](https://www.embopress.org/doi/full/10.1038/msb.2011.75)), to facilitate parameter setting and usage. What's more, provide translation-alignment for codon gene. The copy of these tools is in https://github.com/ZhijianZhou01/plugins. Thanks to the developers of these programs. If you need them, please unzip external_program.zip and put the directory external_program in the root directory of the BioAider.
 
 
 ## BioAider V1.314 (Sep 2, 2020)
@@ -36,7 +36,7 @@
     + Sequence Batch Download (NCBI): NCBI sequence batch search.
     + File Merge: Simple function of combining multiple files into one file.
     + Increased the output linked mutation sites and re-beautified the mapping in Mutation analysis function.
-    + Provide graphical interface for [FastTree](https://www.embopress.org/doi/full/10.1038/msb.2011.75) software, to facilitate parameter setting and usage. Thanks to the FastTree development team. The copy of FastTree software is in https://github.com/ZhijianZhou01/plugins/releases/download/plugins/external_program.zip. If you need it, please unzip external_program.zip and put the directory external_program in the root directory of the BioAider.
+    + Provide graphical interface for [FastTree](https://www.embopress.org/doi/full/10.1038/msb.2011.75) software, to facilitate parameter setting and usage. Thanks to the FastTree development team. The copy of FastTree software is in https://github.com/ZhijianZhou01/plugins. If you need it, please unzip external_program.zip and put the directory external_program in the root directory of the BioAider.
 
 + Fix bugs
     + Mutation Analysis function: Fixed the bug that the "number of stop codons" cannot be counted in the summary file.
