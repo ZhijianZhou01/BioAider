@@ -13,7 +13,7 @@ Latest version describer:
 
 + In the codon-based function, allow both base T and base U to exist in the input sequence-file, BioAider replaces all base U with base T before the calculation in these sections below,
 
-  - The codon-alignment method based on MAFFT, Muscle and Clustal-omega plugin.
+  - The codon-alignment method based on MAFFT, Muscle and Clustal-omega plugins.
 
   - The codon-based options in <b>Mutation Analysis</b>, <b>Sequence Identity Matrix</b> and <b>Sequence Vary</b> (nt → aa translation).
   
