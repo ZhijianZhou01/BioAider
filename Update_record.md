@@ -105,3 +105,19 @@ On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distr
 + Some bugs on sorftware interface. Optimize interactive operation and beautify the interface.
 
 
+## BioAider V1.529-beta (Jan 27, 2024)
+### Add new functions
+
++ Add an extra output file in the ```Combination nt and aa (nt/aa)``` function of <b>```Sequence Identity Matrix```</b>, according to the user's proposed needs. The extra output data was used to draw heatmaps, below the diagonal is nucleotide identity and above diagonal is amino acid identity.
+
++ In the codon-based function, allow both base T and base U to exist in the input sequence-file, BioAider replaces all base U with base T before the calculation in these sections below,
+
+  + The codon-alignment method based on MAFFT, Muscle and Clustal-omega plugin.
+
+  + the codon-based options in <b>```Mutation Analysis```</b>, <b>```Sequence Identity Matrix```</b> and <b>```Sequence Vary```</b>(nt → aa translation).
+  
+  + <b>Tip</b>: still, we want you to import consistent sequences correctly.
+
+
+### Fix bugs
++ In the previous <b>```Ambiguous Base Edition```</b>, if there is not stop-codon at the end of the sequence, the last three bases will be deleted by mistake. This bug was fixed by the original contributors (Xiyue Wang). 
