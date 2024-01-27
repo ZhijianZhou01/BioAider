@@ -30,7 +30,7 @@
 ## BioAider V1.334 (Mar 28, 2021)
 + Add the following functions:
     + Viral *.gb file parser: Extract the information from virus *.gb file, such as host, collection date and country, reference article, etc. What's more, BioAider can be extracted and stored according to species relationship.
-    + Ambiguous Base Edition: Processing ambiguous bases and premature stop codons (preparing sequences for PAML analysis).
+    + Ambiguous Base Edition: Processing ambiguous bases and premature stop codons (preparing sequences for PAML analysis). This feature was contributed by Xiyue Wang. In addition, the authors suggest: (i) the content of ambiguous bases in a single sequence should not be greater than 2%;  (ii) it is not suitable to correct the ambiguity base sites in those sequences with long genetic distances.
     + Delete Low-Similar Sequence: Removing sequences with similarity below the threshold.
     + Date converted to Decimal: Convert date to decimal.
     + Sequence Batch Download (NCBI): NCBI sequence batch search.
