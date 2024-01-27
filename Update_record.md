@@ -39,7 +39,7 @@
     + Provide graphical interface for [FastTree](https://www.embopress.org/doi/full/10.1038/msb.2011.75) software, to facilitate parameter setting and usage. Thanks to the FastTree development team. The copy of FastTree software is in https://github.com/ZhijianZhou01/plugins. If you need it, please unzip external_program.zip and put the directory external_program in the root directory of the BioAider.
 
 + Fix bugs
-    + Fixed the bug that the ``number of stop codons`` cannot be counted in the summary file in <b>```Mutation Analysis```</b>  function.
+    + Fixed the bug that the ``number of stop codons`` sometime cannot be counted in the summary file in <b>```Mutation Analysis```</b>  function.
 
 + Please pay special attention:
 On April 24, 2021 (International Veterinary Day), we uploaded the BioAider distribution for MacOS system for the first time, and fixed some bugs in the last uploaded windows and linux version (but keep the version number 1.334 unchanged).
