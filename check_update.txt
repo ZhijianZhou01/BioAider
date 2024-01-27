@@ -2,46 +2,26 @@ check_update = {
 
 BioAider auto update label: False;
 
-BioAider latest version: BioAider V1.527 (Feb 21, 2023);
+BioAider latest version: V1.529-beta (Feb 21, 2023);
 
 Latest version describer:
 (describer start)
-## BioAider V1.527 (Feb 21, 2023)
+## BioAider V1.529-beta (Jan 27, 2024)
 ### Add new functions
 
-+ Provides tools for hierarchical clustering based on k-mer features of nucleotide sequence.
++ Add an extra output file in the <b>Combination nt and aa (nt/aa)</b> function of <b>Sequence Identity Matrix</b>, according to the user's proposed needs. The extra output data was used to draw heatmaps, below the diagonal is nucleotide identity and above diagonal is amino acid identity.
 
-+ Added options for nucleotide, codon and amino acid in the Linked mode of <b>"Mutation Analysis"</b>. 
++ In the codon-based function, allow both base T and base U to exist in the input sequence-file, BioAider replaces all base U with base T before the calculation in these sections below,
 
-+ For codon data, add the output result in <b>"Mutation Analysis"</b> that can be used to draw mutant lollipops.
+  - The codon-alignment method based on MAFFT, Muscle and Clustal-omega plugin.
 
-+ Support multiple opening of the same pop-up window to run multiple data at the same time.
-
-+ Provides an <b>efficient electronic-lab-notebook</b> to support recording experiments and managing them.
+  - The codon-based options in <b>Mutation Analysis</b>, <b>Sequence Identity Matrix</b> and <b>Sequence Vary</b> (nt → aa translation).
   
-+ Increase update detection of software version, including manual and automatic one.
-
-+ Support changing font and font size of software.
-
-+ Add codon-extraction function in <b>"Sequence Vary"</b>, including two modes, (1, 2 , 3) and (1 + 2, 3).
-
-+ Support adding and deleting shortcuts, quickly access other software while using BioAider.
-
-+ Provide graphical interfaces for some classic command-line  programs
-  + Provide the graphical interfaces for [IQ-Tree](https://academic.oup.com/mbe/article/37/5/1530/5721363), [MrBayes](https://doi.org/10.1093/sysbio/sys029) and [ModelFinder](https://www.nature.com/articles/nmeth.4285) softwares, to make them easy to use. These tools are loaded as plugins at the user's choice in BioAider. Thanks to development teams of these classic softwares.
- 
-  + Added conversion tool of model parameter, and easily prepare model-files for IQ-Tree and MrBayes When the sequence data is partitioned.
-  
-  + Provide a graphical interface for [Blast](https://pubmed.ncbi.nlm.nih.gov/2231712/). The Blast program is loaded as plugin at the user's choice in BioAider. Greatly simplify library construction and sequence alignment, and provide convenient management of multiple databases. Thanks to development team of Blast software.
+  - <b>Tip</b>: still, we want you to import consistent sequences correctly.
 
 
-
-### Fix bugs in version 1.423
-
-+ The function of "Repeat Fragment Search" cannot work in BioAider V1.423.
-+ The "Remove High-Similar sequences" cannot work in BioAider V1.423.
-+ The file directory of the main interface cannot be automatically updated in BioAider V1.423.
-+ Some bugs on sorftware interface. Optimize interactive operation and beautify the interface.
+### Fix bugs
++ In the previous <b>Ambiguous Base Edition</b>, if there is not stop-codon at the end of the sequence, the last three bases will be deleted by mistake. This bug was fixed by the original contributors (Xiyue Wang). 
 
 (describer end)
 }ends
