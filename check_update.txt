@@ -2,7 +2,7 @@ check_update = {
 
 BioAider auto update label: False;
 
-BioAider latest version: V1.529-beta (Feb 21, 2023);
+BioAider latest version: V1.529-beta (Jan 27, 2024);
 
 Latest version describer:
 (describer start)
