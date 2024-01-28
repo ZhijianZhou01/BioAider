@@ -8,9 +8,9 @@ Latest version describer:
 (describer start)
 ## BioAider V1.529-beta (Jan 27, 2024)
 
-Github download links: https://github.com/ZhijianZhou01/BioAider/releases
+Download link 1: https://github.com/ZhijianZhou01/BioAider/releases
 
-Chinese download links: https://cowtransfer.com/s/6443cbd9715a42
+Download link 2: https://cowtransfer.com/s/6443cbd9715a42
 
 ### Add new functions
 
