@@ -28,7 +28,6 @@ Download link 2 (China): https://cowtransfer.com/s/6443cbd9715a42
 ### Fix bugs
 + In the previous <b>Ambiguous Base Edition</b>, if there is not stop-codon at the end of the sequence, the last three bases will be deleted by mistake. This bug was fixed by the original contributors (Xiyue Wang). 
 
-[Chinese download links](https://cowtransfer.com/s/6443cbd9715a42):https://cowtransfer.com/s/6443cbd9715a42
 
 (describer end)
 }ends
