@@ -28,6 +28,8 @@ Download link 2 (China): https://cowtransfer.com/s/6443cbd9715a42
 ### Fix bugs
 + In the previous <b>Ambiguous Base Edition</b>, if there is not stop-codon at the end of the sequence, the last three bases will be deleted by mistake. This bug was fixed by the original contributors (Xiyue Wang). 
 
+### Tip
++ This <b>automatic update prompt</b> will be turned off on February 28, 2024. If you do not need the above features, please continue to use V1.527.
 
 (describer end)
 }ends
