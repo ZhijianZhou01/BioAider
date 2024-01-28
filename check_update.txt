@@ -7,6 +7,11 @@ BioAider latest version: BioAider V1.529-beta (Jan 27, 2024);
 Latest version describer:
 (describer start)
 ## BioAider V1.529-beta (Jan 27, 2024)
+
+Github download links: https://github.com/ZhijianZhou01/BioAider/releases
+
+Chinese download links: https://cowtransfer.com/s/6443cbd9715a42
+
 ### Add new functions
 
 + Add an extra output file in the <b>Combination nt and aa (nt/aa)</b> function of <b>Sequence Identity Matrix</b>, according to the user's proposed needs. The extra output data was used to draw heatmaps, below the diagonal is nucleotide identity and above diagonal is amino acid identity.
