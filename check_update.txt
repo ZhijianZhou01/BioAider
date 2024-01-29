@@ -29,9 +29,9 @@ Latest version describer:
 
 ### Download
 
-Download link 1: https://github.com/ZhijianZhou01/BioAider/releases
++ Download link 1: https://github.com/ZhijianZhou01/BioAider/releases
 
-Download link 2 (China): https://cowtransfer.com/s/6443cbd9715a42
++ Download link 2 (China): https://cowtransfer.com/s/6443cbd9715a42
 
 (describer end)
 }ends
