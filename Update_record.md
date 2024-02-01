@@ -2,7 +2,7 @@
 
 ## Releases: https://github.com/ZhijianZhou01/BioAider/releases
 
-## Latest version: BioAider V1.527 (Feb 21, 2023)
+## Latest version: BioAider V1.532-beta (Feb 01, 2024)
 
 
 # Revision history
