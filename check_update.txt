@@ -2,11 +2,13 @@ check_update = {
 
 BioAider auto update label: True;
 
-BioAider latest version: BioAider V1.529-beta (Jan 27, 2024);
+BioAider latest version: BioAider V1.532-beta (Feb 01, 2024);
 
 Latest version describer:
 (describer start)
-## BioAider V1.529-beta (Jan 27, 2024)
+Compared to BioAider V1.527
+
+## BioAider V1.529-beta (Feb 01, 2024)
 
 ### Add new functions
 
@@ -14,12 +16,13 @@ Latest version describer:
 
 + In the codon-based function, allow both base T and base U to exist in the input sequence-file, BioAider replaces all base U with base T before the calculation in these sections below,
 
-  - The codon-alignment method based on MAFFT, Muscle and Clustal-omega plugins.
+  - The codon-alignment method based on MAFFT, Muscle and Clustal-Omega plugins.
 
   - The codon-based options in <b>Mutation Analysis</b>, <b>Sequence Identity Matrix</b> and <b>Sequence Vary</b> (nt → aa translation).
   
   - <b>Tip</b>: still, we want you to import consistent sequences correctly.
 
++ Change the import method of MAFFT, Muscle, Clustal-Omega and FastTree plugins, the new version using the <b>Manage plugins</b> menu instead of requiring <b>external_program.zip</b>.
 
 ### Fix bugs
 + In the previous <b>Ambiguous Base Edition</b>, if there is not stop-codon at the end of the sequence, the last three bases will be deleted by mistake. This bug was fixed by the original contributors (Xiyue Wang). 
