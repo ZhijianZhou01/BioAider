@@ -6,7 +6,7 @@
 
 <b>Note</b> that versions lower than 1.423 were not optimized read speed for large data.
 
-<b>BioAider V1.527 (Feb 21, 2023) is stronger and more stable, we highly recommend it.</b>
+<b>BioAider V1.527 and V1.532 are stronger and more stable, we highly recommend them.</b>
 
 <b>For the versions lower V1.532</b>, the `external_program.zip` plugins (Mafft, Muscle, Clustal-omega and FastTree softwares included) need to be downloaded manually in https://github.com/ZhijianZhou01/plugins, then unzip `external_program.zip` and put the directory `external_program` in the root directory of the BioAider.
 
