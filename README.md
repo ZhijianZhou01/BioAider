@@ -32,7 +32,7 @@ Since its release, BioAider has been used in research by several researchers and
 </div>
 
 <div align="left">
-<a <i>Prior to January 24, 2024</i></a>
+<a <i>BioAider V1.0~V1.527 (prior to January 24, 2024)</i></a>
 </div>
 
 ## 2. Download, install and run
