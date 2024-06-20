@@ -23,8 +23,17 @@ BioAider is developed based on Python3, which is a user-friendly program with GU
 <a href=https://www.sciencedirect.com/science/article/pii/S2210670720306867>Zhou et al., <i> Sustainable Cities and Society</i>, 2020</a>
 </div>
 
+<br />
 
 Since its release, BioAider has been used in research by several researchers and appeared in some publications. In the future, we will continue to optimize BioAider and add new features.
+
+<div  align="left">    
+<img src="https://github.com/ZhijianZhou01/BioAider/blob/master/Figures/download-count_2024-01-24.jpg" width = "581" height = "544" alt="BioAider" align=center />
+</div>
+
+<div align="left">
+<a <i>Prior to January 24, 2024</i></a>
+</div>
 
 ## 2. Download, install and run
 BioAider and all the updated versions is freely available for non-commercial user at [https://github.com/ZhijianZhou01/BioAider/releases](https://github.com/ZhijianZhou01/BioAider/releases). After obtaining the program, users could directly run the program of executable file in the directory of "main", BioAider can run in Windows, Linux(Ubuntu 16.04 or more) and MacOS system.
