@@ -6,7 +6,10 @@
 
 <b>Note</b> that versions lower than 1.423 were not optimized read speed for large data.
 
-### BioAider V1.527 (Feb 21, 2023) is stronger and more stable, we highly recommend it.
+<b>BioAider V1.527 (Feb 21, 2023) is stronger and more stable, we highly recommend it.</b>
+
+<b>For the versions lower V1.532</b>, the `external_program.zip` plugins (Mafft, Muscle, Clustal-omega and FastTree softwares included) need to be downloaded manually in https://github.com/ZhijianZhou01/plugins, then unzip `external_program.zip` and put the directory `external_program` in the root directory of the BioAider.
+
 
 ## 1. Introduction
 With the development of sequencing technology, a large amount of genomic sequenced data has been accumulated. Analysis of these data will help us understand their genetic variation at the molecular level. However, processing in a large-scale sequence data is difficult for biological or clinical expert without bioinformatics or programming skills. Besides, the needs are also diverse due to different research purposes. Therefore, software with diversity of function and simplicity of operation is very valuable.
