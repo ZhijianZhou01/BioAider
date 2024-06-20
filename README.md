@@ -28,7 +28,7 @@ BioAider is developed based on Python3, which is a user-friendly program with GU
 Since its release, BioAider has been used in research by several researchers and appeared in some publications. In the future, we will continue to optimize BioAider and add new features.
 
 <div  align="left">    
-<img src="https://github.com/ZhijianZhou01/BioAider/blob/master/Figures/download_count_2024-01-24.jpg" width = "522" height = "489" alt="download_count" align=center />
+<kbd><img src="https://github.com/ZhijianZhou01/BioAider/blob/master/Figures/download_count_2024-01-24-v.jpg" width = "504" height = "457" alt="download_count" align=left /><kbd>
 </div>
 
 <div align="left">
