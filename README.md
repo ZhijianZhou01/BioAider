@@ -9,7 +9,7 @@
 
 <b>BioAider V1.527 and V1.532 are stronger and more stable, we highly recommend them.</b>
 
-<b>For the versions lower V1.532</b>, the `external_program.zip` plugins (Mafft, Muscle, Clustal-omega and FastTree softwares included) need to be downloaded manually in https://github.com/ZhijianZhou01/plugins, then unzip `external_program.zip` and put the directory `external_program` in the root directory of the BioAider.
+<b>For the versions lower V1.532</b>, if you want to run these plugins (Mafft, Muscle, Clustal-omega and FastTree softwares included) in GUI, you need to download manually the file `external_program.zip` (https://github.com/ZhijianZhou01/plugins), then unzip it and put the directory `external_program` in the root directory (not `main`) of the BioAider package.
 
 
 ## 1. Introduction
