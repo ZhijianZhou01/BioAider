@@ -9,9 +9,6 @@
 
 <b>BioAider V1.527 and V1.532 are stronger and more stable, we highly recommend them.</b>
 
-<b>Tip, for the versions lower V1.532</b>, if you want to run these plugins (Mafft, Muscle, Clustal-omega and FastTree softwares included) in GUI, please download manually the file `external_program.zip` (https://github.com/ZhijianZhou01/plugins), then unzip it and put the directory `external_program` in the root directory (not `main`) of the BioAider package.
-
-
 ## 1. Introduction
 With the development of sequencing technology, a large amount of genomic sequenced data has been accumulated. Analysis of these data will help us understand their genetic variation at the molecular level. However, processing in a large-scale sequence data is difficult for biological or clinical expert without bioinformatics or programming skills. Besides, the needs are also diverse due to different research purposes. Therefore, software with diversity of function and simplicity of operation is very valuable.
 
@@ -115,6 +112,11 @@ In order to better fit the variation characteristics , BioAider provides the "Co
 BioAider provides mutual conversion among several common sequence formats, which are Fasta, Nexus, Paml, and Phylip. Of note, the "Data type" option is only available when the target format is "Nexus".
 
 ![Seqformat_Convertor.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Seqformat_Convertor.png#align=left&display=inline&height=324&margin=%5Bobject%20Object%5D&name=Seqformat_Convertor.png&originHeight=352&originWidth=576&size=21977&status=done&style=none&width=530)
+
+## 6. Plugins supported
+BioAider provides optional plugins function, including Blast, Mafft, Muscle, Clustal-omega, FastTree, Mrbayes and IQ-Tree. The parameters configured in the GUI will generate a command string and send them for execution. 
+
+<b>Tip, for the versions lower V1.532</b>, if you want to call these plugins (Mafft, Muscle, Clustal-omega and FastTree softwares included) in GUI, please download manually the file `external_program.zip` (https://github.com/ZhijianZhou01/plugins), then unzip it and put the directory `external_program` in the root directory (not `main`) of the BioAider package.
 
 
 ## 5. Test Datas
