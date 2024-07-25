@@ -113,17 +113,16 @@ BioAider provides mutual conversion among several common sequence formats, which
 
 ![Seqformat_Convertor.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Seqformat_Convertor.png#align=left&display=inline&height=324&margin=%5Bobject%20Object%5D&name=Seqformat_Convertor.png&originHeight=352&originWidth=576&size=21977&status=done&style=none&width=530)
 
-## 6. Plugins supported
-BioAider provides optional plugins function, including Blast, Mafft, Muscle, Clustal-omega, FastTree, Mrbayes and IQ-Tree. The parameters configured in the GUI will generate a command string and send them for execution. 
+## 5. Plugins supported
+BioAider provides optional plugins function, and supports [Blast](https://pubmed.ncbi.nlm.nih.gov/2231712/), [Mafft](https://doi.org/10.1093/molbev/mst010), [Muscle](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-5-113), [Clustal-omega](https://www.embopress.org/doi/full/10.1038/msb.2011.75), [FastTree](https://academic.oup.com/mbe/article/26/7/1641/1128976), [MrBayes](https://doi.org/10.1093/sysbio/sys029), [ModelFinder](https://www.nature.com/articles/nmeth.4285) and [IQ-Tree](https://academic.oup.com/mbe/article/37/5/1530/5721363) softwares. The parameters configured in the GUI will generate a command string and send to them for execution. This feature is designed to easily configure their parameters, but did not make any changes to the original program. You can read the documentation or publications for more details abouts these programs.
 
-<b>Tip, for the versions lower V1.532</b>, if you want to call these plugins (Mafft, Muscle, Clustal-omega and FastTree softwares included) in GUI, please download manually the file `external_program.zip` (https://github.com/ZhijianZhou01/plugins), then unzip it and put the directory `external_program` in the root directory (not `main`) of the BioAider package.
+<b>Tip, for the versions lower V1.532</b>, if you want to call the four softwares (Mafft, Muscle, Clustal-omega and FastTree), please download manually the file `external_program.zip` (https://github.com/ZhijianZhou01/plugins), then unzip it and put the directory `external_program` in the root directory (not `main`) of the BioAider.
 
-
-## 5. Test Datas
+## 6. Test Datas
 Please see [Example](https://github.com/ZhijianZhou01/BioAider/tree/master/Example)
 
-## 6. Bug report
+## 7. Bug report
 [Github issues](https://github.com/ZhijianZhou01/BioAider/issues) or send email to zjzhou@hnu.edu.cn.
 
-## 7. Citation
+## 8. Citation
 Zhi-Jian Zhou, Ye Qiu, Ying Pu, Xun Huang, Xing-Yi Ge*. BioAider: An efficient tool for viral genome analysis and its application in tracing SARS-CoV-2 transmission. <i>Sustainable Cities and Society</i>. 2020. [DIO: 10.1016/j.scs.2020.102466](https://www.sciencedirect.com/science/article/pii/S2210670720306867).
