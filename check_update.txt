@@ -1,6 +1,6 @@
 check_update = {
 
-BioAider auto update label: False;
+BioAider auto update label: True;
 
 BioAider latest version: BioAider v1.627 (July 27, 2024);
 
