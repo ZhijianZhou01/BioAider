@@ -7,27 +7,28 @@ BioAider latest version: BioAider v1.627 (July 27, 2024);
 Latest version describer:
 (describer start)
 
-## BioAider V1.627 (July 27, 2024)
+## BioAider v1.627 (July 27, 2024)
 
 Compared to BioAider v1.532-beta
 
-### Optimized the calculation function of `Mutation Analysis`
-+ Multi-process-based parallelization was used in calculations, and the calculation logic has been optimized. Now, the run times are drastically reduced, and <b>what used to take hours can now be done in minutes</b>. We tested about <b>87,000 ORF1ab sequences</b> from SARS-CoV-2, if  4 cores are used in the desktop computer (`Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz `), and the analysis is completed in about <b>3 minutes</b>.
+### Optimized the calculation function of "Mutation Analysis"
+- Multi-process-based parallelization was used in calculations, and the calculation logic has been optimized. Now, the run times are drastically reduced, and <b>what used to take hours can now be done in minutes</b>. We tested about <b>87,000 ORF1ab sequences</b> from SARS-CoV-2, if  4 cores are used in the desktop computer [Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz], and the analysis is completed in about <b>3 minutes</b>.
 
-+ Optimize memory usage. Sequences in the alignment can be iteratively read and loaded into memory, which allows large amounts of sequences to be computed at lower memory. This is optional using the parameters `Max.num.seqs` , default value: 20000 sequences.
+- Optimize memory usage. Sequences in the alignment can be iteratively read and loaded into memory, which allows large amounts of sequences to be computed at lower memory. This is optional using the parameters "Max.num.seqs" , default value: 20000 sequences.
 
-### Updated the function of `Date converted to Decimal`
-+ Batch processing of multiple formats is supported.
+### Updated the function of "Date converted to Decimal"
+
+- Batch processing of multiple formats is supported.
 
 ### Others
-+ More tips of usage were added in software interface, Chinese language included.（在软件界面增加更多的使用提示，包括中文的）
-+ Optimization of calculations in `K-mer Matrix of Sequences` and `Viral *.gb file parser`.
+- More tips of usage were added in software interface, Chinese language included.（在软件界面增加更多的使用提示，包括中文的）
+- Optimization of calculations in "K-mer Matrix of Sequences" and "Viral *.gb file parser".
 
 ### Download
 
-+ Download link 1: https://github.com/ZhijianZhou01/BioAider/releases
+- Download link 1: https://github.com/ZhijianZhou01/BioAider/releases
 
-+ Download link 2 (China): https://cowtransfer.com/s/6443cbd9715a42
+- Download link 2 (China): https://cowtransfer.com/s/6443cbd9715a42
 
 (describer end)
 }ends
