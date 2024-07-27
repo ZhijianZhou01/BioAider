@@ -7,7 +7,7 @@
 
 <b>Note</b> that versions lower than 1.423 were not optimized read speed for large data.
 
-<b>New, BioAider v1.627 are stronger and more stable, we highly recommend them.</b>
+<b>New, BioAider v1.627 are stronger and more stable, we highly recommend it.</b>
 
 ## 1. Introduction
 With the development of sequencing technology, a large amount of genomic sequenced data has been accumulated. Analysis of these data will help us understand their genetic variation at the molecular level. However, processing in a large-scale sequence data is difficult for biological or clinical expert without bioinformatics or programming skills. Besides, the needs are also diverse due to different research purposes. Therefore, software with diversity of function and simplicity of operation is very valuable.
