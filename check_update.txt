@@ -30,5 +30,8 @@ Compared to BioAider v1.532-beta
 
 - Download link 2 (China): https://cowtransfer.com/s/6443cbd9715a42
 
+### Tip, this auto-update prompt will be turned off on August 27, 2024.
+ 
+
 (describer end)
 }ends
