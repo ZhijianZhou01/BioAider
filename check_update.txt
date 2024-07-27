@@ -7,29 +7,21 @@ BioAider latest version: BioAider V1.532-beta (Feb 01, 2024);
 Latest version describer:
 (describer start)
 
-## BioAider V1.529-beta (Feb 01, 2024)
+## BioAider V1.627 (July 27, 2024)
 
-Compared to BioAider V1.527
+Compared to BioAider v1.532-beta
 
-### Add new functions
+### Optimized the calculation function of `Mutation Analysis`
++ Multi-process-based parallelization was used in calculations, and the calculation logic has been optimized. Now, the run times are drastically reduced, and <b>what used to take hours can now be done in minutes</b>. We tested about <b>87,000 ORF1ab sequences</b> from SARS-CoV-2, if  4 cores are used in the desktop computer (`Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz `), and the analysis is completed in about <b>3 minutes</b>.
 
-+ Add an extra output file in the <b>Combination nt and aa (nt/aa)</b> function of <b>Sequence Identity Matrix</b>, according to the user's proposed needs. The extra output data was used to draw heatmaps, below the diagonal is nucleotide identity and above diagonal is amino acid identity.
++ Optimize memory usage. Sequences in the alignment can be iteratively read and loaded into memory, which allows large amounts of sequences to be computed at lower memory. This is optional using the parameters `Max.num.seqs` , default value: 20000 sequences.
 
-+ In the codon-based function, allow both base T and base U to exist in the input sequence-file, BioAider replaces all base U with base T before the calculation in these sections below,
+### Updated the function of `Date converted to Decimal`
++ Batch processing of multiple formats is supported.
 
-  - The codon-alignment method based on MAFFT, Muscle and Clustal-Omega plugins.
-
-  - The codon-based options in <b>Mutation Analysis</b>, <b>Sequence Identity Matrix</b> and <b>Sequence Vary</b> (nt → aa translation).
-  
-  - <b>Tip</b>: still, we want you to import consistent sequences correctly.
-
-+ Change the import method of MAFFT, Muscle, Clustal-Omega and FastTree plugins, the new version using the <b>Manage plugins</b> menu instead of requiring <b>external_program.zip</b>.
-
-### Fix bugs
-+ In the previous <b>Ambiguous Base Edition</b>, if there is not stop-codon at the end of the sequence, the last three bases will be deleted by mistake. This bug was fixed by the original contributors (Xiyue Wang). 
-
-### Tip
-+ This <b>automatic update prompt</b> will be turned off on February 28, 2024. If you do not need the above features, please continue to use V1.527.
+### Others
++ More tips of usage were added in software interface, Chinese language included.（在软件界面增加更多的使用提示，包括中文的）
++ Optimization of calculations in `K-mer Matrix of Sequences` and `Viral *.gb file parser`.
 
 ### Download
 
