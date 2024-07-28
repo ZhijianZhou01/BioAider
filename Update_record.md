@@ -2,7 +2,7 @@
 
 ## Releases: https://github.com/ZhijianZhou01/BioAider/releases
 
-## Latest version: BioAider V1.532-beta (Feb 01, 2024)
+## Latest version: BioAider v1.627 (July 27, 2024)
 
 
 # Revision history
@@ -124,4 +124,51 @@ Compared to BioAider V1.527
 
 
 ### Fix bugs
-+ In the previous <b>```Ambiguous Base Edition```</b>, if there is not stop-codon at the end of the sequence, the last three bases will be deleted by mistake. This bug was fixed by the original contributors (Xiyue Wang). 
++ In the previous <b>```Ambiguous Base Edition```</b>, if there is not stop-codon at the end of the sequence, the last three bases will be deleted by mistake. This bug was fixed by the original contributors (Xiyue Wang).
+
+## BioAider v1.627 (July 27, 2024)
+Compared to BioAider v1.532-beta
+
+### Optimized the calculation function of `Mutation Analysis`
++ Multi-process-based parallelization was used in calculations, and the calculation logic has been optimized. Now, the run times are drastically reduced, and <b>what used to take hours can now be done in minutes</b>. We tested about <b>87,000 ORF1ab sequences</b> from SARS-CoV-2, if  4 cores are used in the desktop computer (`Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz `), and the analysis is completed in about <b>3 minutes</b>.
+
++ Optimize memory usage. Sequences in the alignment can be iteratively read and loaded into memory, which allows large amounts of sequences to be computed at lower memory. This is optional using the parameters `Max.num.seqs` , default value: 20000 sequences.
+
+### Updated the function of `Date converted to Decimal`
++ Batch processing of multiple formats is supported.
+```
+# Eaxmple 1
+# mix of YYYY, YYYY.MM and YYYY.MM.DD
+2013
+2014.05
+2015.10.01
+
+# Eaxmple 2
+# mix of YYYY, YYYY_MM and YYYY_MM_DD
+2013
+2014_05
+2015_10_01
+
+# Eaxmple 3
+# mix of YYYY, YYYY/MM and YYYY/MM/DD
+2013
+2014/05
+2015/10/01
+
+# Eaxmple 4
+# mix of YYYY, YYYY-MM and YYYY-MM-DD
+2013
+2014-05
+2015-10-01
+
+# Eaxmple 5
+# mix of separators including '-', '/', '-' and '_'
+2022.11-11
+2022/11.11
+2022_11-11
+```
+
+### Others
++ More tips of usage were added in software interface, Chinese language included.（在软件界面增加更多的使用提示，包括中文的）
++ Optimization of calculations in `K-mer Matrix of Sequences` and `Viral *.gb file parser`.
+
