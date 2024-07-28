@@ -36,6 +36,8 @@ Since its release, BioAider has been used in some studies by many researchers. I
 ## 2. Download, install and run
 BioAider and all the updated versions is freely available for non-commercial user. After obtaining the program, users could directly run the program of executable file in the directory of "main", BioAider can run in Windows, Linux(Ubuntu 16.04 or more) and MacOS system.
 
+[Github links](https://github.com/ZhijianZhou01/BioAider/releases)
+
 [Other download links (China)](https://cowtransfer.com/s/6443cbd9715a42)
 
 (1) For Windows or MacOS system, users could run BioAider directly by clicking ```BioAider.exe``` (in Windows) or ```bioaider``` (in MacOS) in the directory ```main```. 
