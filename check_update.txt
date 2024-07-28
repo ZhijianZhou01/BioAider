@@ -14,7 +14,7 @@ Compared to BioAider v1.532-beta
 ### Optimized the calculation function of "Mutation Analysis"
 - Multi-process-based parallelization was used in calculations, and the calculation logic has been optimized. Now, the run times are drastically reduced, and <b>what used to take hours can now be done in minutes</b>. We tested about <b>87,000 ORF1ab sequences</b> from SARS-CoV-2, if  4 cores are used in the desktop computer [Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz], and the analysis is completed in about <b>3 minutes</b>.
 
-- Optimize memory usage. Sequences in the alignment can be iteratively read and loaded into memory, which allows large amounts of sequences to be computed at lower memory. This is optional using the parameters "Max.num.seqs" , default value: 20000 sequences.
+- Optimize memory usage. Sequences in the alignment can be iteratively read and loaded into memory, which allows large amounts of sequences to be computed at lower memory. This is optional using the parameters "Max.num.seqs in interative" , default value: 20000 sequences.
 
 ### Updated the function of "Date converted to Decimal"
 
