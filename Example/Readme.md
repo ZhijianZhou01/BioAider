@@ -1,1 +1,1 @@
-This directory contains some sample data.
+This directory contains some examples and data.
