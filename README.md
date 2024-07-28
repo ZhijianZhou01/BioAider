@@ -55,7 +55,7 @@ $ chmod -R 777 BioAider_v1.423_linux_20220324
 ![BioAider GUI](https://github.com/ZhijianZhou01/BioAider/blob/master/Figures/BioAider-GUI.gif)
 
 ## 4. Example of functions
-<b>Note：</b>BioAider will be in long-term development and functional improvement in the future. <b>Only a small part of the features are shown here</b>, please refer to the instruction [Manual V1.423](https://github.com/ZhijianZhou01/BioAider/blob/master/BioAider%20V1.423_220525.pdf) for details.
+<b>Note：</b>BioAider will be in long-term development and functional improvement in the future. <b>Only a small part of the features are shown here</b>, please refer to the instruction [Manual V1.423](https://github.com/ZhijianZhou01/BioAider/blob/master/BioAider%20V1.423_220525.pdf) and [Update record](https://github.com/ZhijianZhou01/BioAider/blob/master/Update_record.md) for details.
 
 ### 4.1. Mutation Analysis
 This function could be used for analysis of the <b>mutation characteristic on large numbers of sequenced strains</b>. The sequence data for analysis needs to be aligned in advance, and they could be nucleotides, proteins（amino acid） sequences or simply coding gene fragments. For nucleotides and proteins sequences, BioAider could summarizes all the mutation sites with corresponding frequency and strains. 
