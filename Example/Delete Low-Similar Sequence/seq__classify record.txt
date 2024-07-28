@@ -1,0 +1,5 @@
+Classification	SeqName
+0	seq1
+0	seq2
+0	seq3
+0	seq4

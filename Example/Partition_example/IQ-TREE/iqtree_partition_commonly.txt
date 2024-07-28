@@ -1,0 +1,6 @@
+#nexus
+begin sets;
+	charset Subset1 = 1-276;
+	charset Subset2 = 277-2610;
+	charpartition partitions = GTR+I+G:Subset1, HKY+G:Subset2;
+end;

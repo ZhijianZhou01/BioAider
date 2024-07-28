@@ -1,0 +1,17 @@
+charset A_codon1=1-276\3;
+charset A_codon2=2-276\3;
+charset A_codon3=3-276\3;
+charset B_codon1=277-2610\3;
+charset B_codon2=278-2610\3;
+charset B_codon3=279-2610\3;
+partition Names =6:A_codon1,A_codon2,A_codon3,B_codon1,B_codon2,B_codon3;
+set partition=Names;
+lset applyto=(1) nst=6 rates=invgamma;
+lset applyto=(2) nst=2 rates=gamma;
+lset applyto=(3) nst=1 rates=gamma Ngammacat=4;
+lset applyto=(4) nst=2 rates=gamma Ngammacat=4;
+lset applyto=(5) nst=6 rates=gamma Ngammacat=4;
+lset applyto=(6) nst=1 rates=gamma Ngammacat=4;
+
+prset applyto=(all) ratepr=variable;
+unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all) tratio=(all);

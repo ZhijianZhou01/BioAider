@@ -1,0 +1,10 @@
+#nexus
+begin sets;
+	charset Subset1 = 1-276\3;
+	charset Subset2 = 2-276\3;
+	charset Subset3 = 3-276\3;
+	charset Subset4 = 277-2610\3;
+	charset Subset5 = 278-2610\3;
+	charset Subset6 = 279-2610\3;
+	charpartition partitions = GTR+I+G:Subset1, GTR+G:Subset2, HKY+G:Subset3, GTR+I+G:Subset4, GTR+I+G:Subset5, TVM+I+G:Subset6;
+end;

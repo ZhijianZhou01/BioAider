@@ -1,0 +1,9 @@
+charset A = 1-276;
+charset B = 277-2610;
+partition Names = 2:A, B;
+set partition=Names;
+lset applyto=(1) nst=6 rates=invgamma;
+lset applyto=(2) nst=2 rates=gamma;
+prset applyto=(all) ratepr=variable;
+unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all) tratio=(all);
+

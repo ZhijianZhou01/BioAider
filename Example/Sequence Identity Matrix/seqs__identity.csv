@@ -1,0 +1,8 @@
+The pairwise identities (%) matrix of J:/My_app/BioAider_develop/Example/Sequence Identity Matrix/seqs.txt
+Identity = A/(A+B). A:the counts of same site in alignment locus; B: the counts of different site in alignment locus.
+
+,seq1,seq2,seq3,seq4
+seq1,-,75.00,25.00,0.00
+seq2,75.00,-,0.00,0.00
+seq3,25.00,0.00,-,75.00
+seq4,0.00,0.00,75.00,-
