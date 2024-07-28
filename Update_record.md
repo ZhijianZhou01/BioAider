@@ -170,5 +170,5 @@ Compared to BioAider v1.532-beta
 
 ### Others
 + More tips of usage were added in software interface, Chinese language included.（在软件界面增加更多的使用提示，包括中文的）
-+ Optimization of calculations in `K-mer Matrix of Sequences` and `Viral *.gb file parser`.
++ Optimization of parallel computations in `K-mer Matrix of Sequences` and `Viral *.gb file parser`.
 
