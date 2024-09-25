@@ -97,27 +97,31 @@ Lollipop map is an efficient method to display gene mutation sites and frequenci
 ![Lollipop map of mutation](https://github.com/ZhijianZhou01/BioAider/blob/master/Figures/Lollipop%20map.png)
 In BioAider, you only need to prepare the corresponding matrix file and simply set the parameters to quickly complete the drawing.
 
-### 4.3. Fast Annotation
+### 4.3 Figure of sequence alignment
+Since version 1.727, BioAider has added a sequence editor, which supports sequence viewing and editing. More importantly, you can export the sequence alignment diagram very easy, and BioAider supports custom colors for each base (or amino acid).
+![alignment_diagram](https://github.com/ZhijianZhou01/BioAider/blob/master/Figures/alignment%20_seq.png)
+
+### 4.4. Fast Annotation
 For different strain sequences from the same virus, their nucleotide identity is usually relatively higher. Therefore, the sequences annotation could be based on the gene information of the reference sequence after multi-sequence alignment. 
 
 BioAider provides a quickly sequence annotation function, users can import the aligned complete genome sequence set (fasta format file), and adjust the reference sequence for annotation to the forefront of the file. Paste the gene information of reference sequence in aligned sets, name, starting string and end string into the textbox, separated by ",". Then batch abstract genes. Note that the start string or end string of the gene is not limited in length, but it is required to be unique in the reference sequence. Besides, the higher of  similarity among sequences, the higher accuracy of the annotation.
 
 ![Fast_Annotation.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Fast_Annotation.png#align=left&display=inline&height=471&margin=%5Bobject%20Object%5D&name=Fast_Annotation.png&originHeight=521&originWidth=571&size=50539&status=done&style=none&width=516)
 
-### 4.4. Sequence Identity Matrix
+### 4.5. Sequence Identity Matrix
 This function contains two different modes: identity matrix for single nucleotide or amino acid (Single nt or aa), identity matrix for combination nucleotide and amino acid (Combination nt and aa). It should be noted that if the "Combination nt and aa" is selected, the inputed sequences should be codon gene and was aligned based on codon method in advance. 
 
 In order to better fit the variation characteristics , BioAider provides the "Condense gap" function. If  the option was selected, the program will treat every 3 consecutive inserted or deleted bases as one.
 
 ![Sequence_Identity_Matrix.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Sequence_Identity_Matrix.png#align=left&display=inline&height=310&margin=%5Bobject%20Object%5D&name=Sequence_Identity_Matrix.png&originHeight=425&originWidth=793&size=53676&status=done&style=none&width=579)
 
-### 4.5. Seqformat Convertor
+### 4.6. Seqformat Convertor
 BioAider provides mutual conversion among several common sequence formats, which are Fasta, Nexus, Paml, and Phylip. Of note, the "Data type" option is only available when the target format is "Nexus".
 
 ![Seqformat_Convertor.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Seqformat_Convertor.png#align=left&display=inline&height=324&margin=%5Bobject%20Object%5D&name=Seqformat_Convertor.png&originHeight=352&originWidth=576&size=21977&status=done&style=none&width=530)
 
 ## 5. Plugins supported
-BioAider provides optional plugins function, and supports [Blast](https://pubmed.ncbi.nlm.nih.gov/2231712/), [Mafft](https://doi.org/10.1093/molbev/mst010), [Muscle](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-5-113), [Clustal-omega](https://www.embopress.org/doi/full/10.1038/msb.2011.75), [FastTree](https://academic.oup.com/mbe/article/26/7/1641/1128976), [MrBayes](https://doi.org/10.1093/sysbio/sys029), [ModelFinder](https://www.nature.com/articles/nmeth.4285) and [IQ-Tree](https://academic.oup.com/mbe/article/37/5/1530/5721363) softwares. The parameters configured in the GUI will generate a command string and send to them for execution. This feature is designed to easily configure their parameters, but did not make any changes to the original program. You can read the documentation or publications for more details about these programs.
+BioAider provides optional plugins function, and supports [Blast](https://pubmed.ncbi.nlm.nih.gov/2231712/), [Mafft](https://doi.org/10.1093/molbev/mst010), [Muscle](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-5-113), [Clustal-omega](https://www.embopress.org/doi/full/10.1038/msb.2011.75), [HMMER tools](http://hmmer.org/), [FastTree](https://academic.oup.com/mbe/article/26/7/1641/1128976), [MrBayes](https://doi.org/10.1093/sysbio/sys029), [ModelFinder](https://www.nature.com/articles/nmeth.4285) and [IQ-Tree](https://academic.oup.com/mbe/article/37/5/1530/5721363) softwares. The parameters configured in the GUI will generate a command string and send to them for execution. This feature is designed to easily configure their parameters, but did not make any changes to the original program. You can read the documentation or publications for more details about these programs.
 
 <b>Tip, for the versions lower V1.532</b>, if you want to call the four softwares (Mafft, Muscle, Clustal-omega and FastTree), please download manually the file `external_program.zip` (https://github.com/ZhijianZhou01/plugins), then unzip it and put the directory `external_program` in the root directory (not `main`) of the BioAider. <b>For V1.532 and later versions</b>, all the plugins are imported manually via the `Manage plugins` menu.
 
