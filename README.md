@@ -99,7 +99,7 @@ In BioAider, you only need to prepare the corresponding matrix file and simply s
 
 ### 4.3 Figure of sequence alignment
 Since version 1.727, BioAider has added a sequence editor, which supports sequence viewing and editing. More importantly, you can export the sequence alignment diagram very easy, and BioAider supports custom colors for each base (or amino acid).
-![alignment_diagram](https://github.com/ZhijianZhou01/BioAider/blob/master/Figures/alignment%20_seq.png)
+![alignment_diagram](https://github.com/ZhijianZhou01/BioAider/blob/master/Figures/alignment%20_seqs.png)
 
 ### 4.4. Fast Annotation
 For different strain sequences from the same virus, their nucleotide identity is usually relatively higher. Therefore, the sequences annotation could be based on the gene information of the reference sequence after multi-sequence alignment. 
