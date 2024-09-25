@@ -1,6 +1,6 @@
 check_update = {
 
-BioAider auto update label: False;
+BioAider auto update label: True;
 
 BioAider latest version: BioAider v1.727 (September 25, 2024);
 
@@ -10,13 +10,13 @@ Latest version describer:
 ## BioAider v1.727 (September 25, 2024)
 Compared to BioAider v1.627
 
-+ Added the <b>`Sequence Editor`</b>, used for browsing/editing sequences, and generating [sequence alignment figure](https://github.com/ZhijianZhou01/BioAider/blob/master/Example/sequence_alignment_figure/alignment%20_seq.pdf).
+- Added the <b>Sequence Editor</b>, used for browsing/editing sequences, and generating [sequence alignment figure](https://github.com/ZhijianZhou01/BioAider/blob/master/Example/sequence_alignment_figure/alignment%20_seq.pdf).
 
-+ Provided the graphical interfaces for [HMMER tools](http://hmmer.org/) (including `hmmbuild`, `hmmsacn` and `hmmsearch`), to facilitate parameter setting and usage. They are loaded as plugins at the user's choice in BioAider. Thanks to development teams of HMMER software.
+- Provided the graphical interfaces for [HMMER tools](http://hmmer.org/) (including hmmbuild, hmmsacn and hmmsearch), to facilitate parameter setting and usage. They are loaded as plugins at the user's choice in BioAider. Thanks to development teams of HMMER software.
 
-+ Updated the function <b>`Viral *.gb file parser`</b>, since NCBI replaces label `country` with `geo_loc_name`.
+- Updated the function <b>Viral *.gb file parser</b>, since NCBI replaces label "country" with "geo_loc_name".
 
-+ Added a right-click menu to the file system on the main interface.
+- Added a right-click menu to the file system on the main interface.
 
 ### Download
 
@@ -24,7 +24,7 @@ Compared to BioAider v1.627
 
 - Download link 2 (China): https://cowtransfer.com/s/6443cbd9715a42
 
-### Tip, this auto-update prompt will be turned off on August 27, 2024.
+### Tip, this auto-update prompt will be turned off on October 25, 2024.
  
 
 (describer end)
