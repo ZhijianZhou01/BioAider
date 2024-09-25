@@ -2,7 +2,7 @@
 
 ## Releases: https://github.com/ZhijianZhou01/BioAider/releases
 
-## Latest version: BioAider v1.627 (July 27, 2024)
+## Latest version: BioAider v1.727 (September 25, 2024)
 
 
 # Revision history
@@ -171,4 +171,16 @@ Compared to BioAider v1.532-beta
 ### Others
 + More tips of usage were added in software interface, Chinese language included.（在软件界面增加更多的使用提示，包括中文的）
 + Optimization of parallel computations in `K-mer Matrix of Sequences` and `Viral *.gb file parser`.
+
+
+## BioAider v1.727 (September 25, 2024)
+Compared to BioAider v1.627
+
++ Added the <b>`Sequence Editor`</b>, used for browsing/editing sequences, and generating [sequence alignment figure](https://github.com/ZhijianZhou01/BioAider/blob/master/Example/sequence_alignment_figure/alignment%20_seq.pdf).
+
++ Provided the graphical interfaces for [HMMER tools](http://hmmer.org/) (including `hmmbuild`, `hmmsacn` and `hmmsearch`), to facilitate parameter setting and usage. They are loaded as plugins at the user's choice in BioAider. Thanks to development teams of HMMER software.
+
++ Updated the function <b>`Viral *.gb file parser`</b>, since NCBI replaces label `country` with `geo_loc_name`.
+
++ Added a right-click menu to the file system on the main interface.
 
