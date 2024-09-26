@@ -92,7 +92,7 @@ Or could obtain the corresponding mutant strain of these variant sites in the de
 
 ![SARS-CoV-2_ORF3a_aligned log.png](https://github.com/ZhijianZhou01/BioAider/raw/master/Figures/Mutation_analysis_codon_sequence_log.png#align=left&display=inline&height=341&margin=%5Bobject%20Object%5D&name=Mutation_analysis_codon_sequence_log.png&originHeight=932&originWidth=1741&size=414003&status=done&style=none&width=637)
 
-### 4.2 Lollipop chart of gene mutation
+### 4.2. Lollipop chart of gene mutation
 Lollipop map is an efficient method to display gene mutation sites and frequencies, they look like the following:
 ![Lollipop map of mutation](https://github.com/ZhijianZhou01/BioAider/blob/master/Figures/Lollipop%20map.png)
 In BioAider, you only need to prepare the corresponding matrix file and simply set the parameters to quickly complete the drawing.
